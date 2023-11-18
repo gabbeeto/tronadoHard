@@ -9,6 +9,7 @@ function openDialog() {
   switch (this.dataset.id) {
     case "0":
       dialog.innerHTML = `
+<div>
 <button><a href="" download="tronadoHardWindow.zip">descargar Instaladores para window</a></button>
 <button><a href="" download="tronadoHardWindow.zip">descargar Instaladores para linux</a></button>
 
@@ -25,8 +26,7 @@ function openDialog() {
 
   </details>
 </ul>
-<button><a href="" download="tronadoHardWindow.zip">descargar Instaladores para linux</a></button>
-
+</div>
         `;
       break;
 
