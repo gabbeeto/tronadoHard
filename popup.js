@@ -19,7 +19,7 @@ function openDialog() {
   Google Drive
     </summary>
     <section>
-      <button><a target="_blank" href="https://drive.google.com/drive/folders/18dN5wxPjbex3jtWI6fQvDO22q3lQv9Ro?usp=sharing">windows</a></button>
+      <button><a target="_blank" href="https://drive.google.com/drive/folders/1E-n2jL_nJvgqStBwHjI566ZdACbRjWvf?usp=sharing">windows</a></button>
       <button><a target="_blank" href="https://drive.google.com/drive/folders/1qG0kQ0MhZU6QP6TWlHwm6rQpsE_HFnta?usp=sharing">linux</a></button>
     </section>
 
