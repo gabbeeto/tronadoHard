@@ -1,4 +1,4 @@
-const dialog = document.querySelector('dialog');
+let dialog = document.querySelector('dialog');
 const buttons = document.querySelectorAll('button');
 for (let button of buttons) {
   button.addEventListener('click', openDialog)
