@@ -21,9 +21,9 @@ function openDialog() {
             </summary>
             <section>
               <button><a target="_blank"
-                  href="https://drive.google.com/drive/folders/1E-n2jL_nJvgqStBwHjI566ZdACbRjWvf?usp=sharing">windows</a></button>
+                  href="https://drive.google.com/drive/folders/1HKKs15ZVdVkc9Utph76uiq4Hgb1i59fS">windows</a></button>
               <button><a target="_blank"
-                  href="https://drive.google.com/drive/folders/1qG0kQ0MhZU6QP6TWlHwm6rQpsE_HFnta?usp=sharing">linux</a></button>
+                  href="https://drive.google.com/drive/folders/19gm9GzQu8YsHhwifL3VQ_RNLrOjc_Pa8">linux</a></button>
             </section>
 
           </details>
