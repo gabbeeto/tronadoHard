@@ -10,8 +10,8 @@ function openDialog() {
     case "0":
       dialog.innerHTML = `
       <div>
-<button><a href="https://gabbeeto.github.io/tronadoHard/zipFiles/window.zip" download="tronadoHardWindow.zip">descargar Instaladores para window</a></button>
-<button><a href="https://gabbeeto.github.io/tronadoHard/zipFiles/linux.zip" download="tronadoHardWindow.zip">descargar Instaladores para linux</a></button>
+<button><a href="zipFiles/window.zip" download="tronadoHardWindow.zip">descargar Instaladores para window</a></button>
+<button><a href="zipFiles/linux.zip" download="tronadoHardWindow.zip">descargar Instaladores para linux</a></button>
         <h2>links externos:</h2>
         <ul>
           <details>
