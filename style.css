@@ -48,13 +48,16 @@ border:2px solid var(--darkPink);
 padding:6px;
 text-align:center;
 border-radius:10px;
-
 }
 
 h2{
 font-size:min(5vw,2.2rem);
 text-align:center;
 }
+main > article > h2{
+font-size:min(3.5vw,1.8rem);
+}
+
 footer{
 border-top:2px solid var(--darkPink);
 justify-content:center;
@@ -90,6 +93,14 @@ height:88%;
 align-self:center;
 font-family:'button';
 font-size: min(5vw,2rem);
+}
+
+a:link{
+color: black;
+}
+
+a:visited{
+color: var(--darkPink);
 }
 
 dialog{
