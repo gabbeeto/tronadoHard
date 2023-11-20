@@ -4,27 +4,59 @@
 padding: 0;
 margin: 0;
 box-sizing: border-box;
-
 }
+
+@font-face{
+font-family: 'default';
+src: url('./fonts/Minercraftory.ttf');
+}
+
+@font-face{
+font-family: 'button';
+src: url('./fonts/Minecraft.ttf');
+}
+
 :root{
---black: black;
+--red:#842D78;
+--yellow: #E5A836;
+--darkPink: #B2336C;
+--blue: #297EA1;
+--darkBlue: #174DB1;
 }
 
+body{
+  background-color: var(--yellow);
+  color: var(--darkPink);
+  font-family: 'default';
+}
+
+main > h2 > span{
+color: var(--darkBlue);
+}
 header{
-border-bottom:2px solid var(--black);
+background-color:var(--blue);
+border-bottom:2px solid var(--darkPink);
 display: flex;
 justify-content:center;
 align-items:center;
 text-align:center;
 }
 
+button{
+background-color:var(--blue);
+border:2px solid var(--darkPink);
+padding:6px;
+text-align:center;
+border-radius:10px;
+
+}
+
 h2{
 font-size:min(5vw,2.2rem);
 text-align:center;
 }
-
 footer{
-border-top:2px solid var(--black);
+border-top:2px solid var(--darkPink);
 justify-content:center;
 align-items:center;
 text-align:center;
@@ -53,17 +85,23 @@ justify-self:center;
 
 button{
 width:80%;
-height:80%;
 justify-self:center;
+height:88%;
 align-self:center;
+font-family:'button';
+font-size: min(5vw,2rem);
 }
 
 dialog{
+background-color: var(--yellow);
+color: var(--darkPink);
 position:fixed;
 top:50%;
 left:50%;
 transform: translate(-50%,-50%);
 padding: 10px;
+border-radius: 20px;
+box-shadow: 10px 10px 10px var(--darkPink);
 }
 
 dialog > div{
