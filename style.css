@@ -121,12 +121,20 @@ align-items:center;
 justify-items:center;
 text-align: center;
 border-radius:20px;
-width:65vw;
-height:80vh;
+width:67vw;
+height:88vh;
 }
 dialog div img{
 width: 90%;
 height: min(30%,280px);
 justify-self:center;
 align-self:center;
+}
+
+p.linux{
+  color: var(--blue);
+}
+
+img.linux{
+  border:2px solid var(--blue);
 }
