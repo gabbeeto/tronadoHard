@@ -117,10 +117,16 @@ box-shadow: 10px 10px 10px var(--darkPink);
 
 dialog > div{
 display: grid;
-justify-content:center;
 align-items:center;
+justify-items:center;
 text-align: center;
 border-radius:20px;
 width:65vw;
 height:65vh;
+}
+dialog div img{
+width: 90%;
+height: min(30%,280px);
+justify-self:center;
+align-self:center;
 }

@@ -10,8 +10,8 @@ function openDialog() {
     case "0":
       dialog.innerHTML = `
       <div>
-<button><a href="zipFiles/window.zip" download="tronadoHardWindow.zip">descargar Instaladores para window</a></button>
-<button><a href="zipFiles/linux.zip" download="tronadoHardWindow.zip">descargar Instaladores para linux</a></button>
+        <button><a href="zipFiles/window.zip" download="tronadoHardWindow.zip">descargar Instaladores para window</a></button>
+        <button><a href="zipFiles/linux.zip" download="tronadoHardWindow.zip">descargar Instaladores para linux</a></button>
         <h2>links externos:</h2>
         <ul>
           <details>
@@ -34,7 +34,19 @@ function openDialog() {
           </details>
         </ul>
       </div>
-        `;
+      `;
+      break;
+    case '1':
+      let src =`./images/basicInstalation`
+      dialog.innerHTML = `
+      <div>
+      <p>hacele click a las imagenes si quieres verlos en pantalla completa</p>
+      ${anchorAndImgTag(src,'00','welcome image')}
+      <p>despues de bajar el instalador tienes que extraerlos(probablemente el archivo zip tenga otro nombre)</p>
+      ${anchorAndImgTag(src,'01','muestra de archivo')}
+      <p></p>
+      </div>
+      `;
       break;
     case '2':
       dialog.innerHTML = `
@@ -54,4 +66,7 @@ function openDialog() {
   dialog.showModal()
 }
 
+function anchorAndImgTag(src,number,message){
 
+  return`<a target="_blank" href="${src}/${number}.png"> <img src="${src}/${number}.png" tittle="${message}" alt="${message}"></a>`
+}
