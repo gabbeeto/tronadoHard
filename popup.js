@@ -44,7 +44,28 @@ function openDialog() {
       ${anchorAndImgTag(src,'00','welcome image')}
       <p>despues de bajar el instalador tienes que extraerlos(probablemente el archivo zip tenga otro nombre)</p>
       ${anchorAndImgTag(src,'01','muestra de archivo')}
-      <p></p>
+      <p>usualmente extraeria en windows haria click derecho y seleccionaria "extraer aqui" si tuviera winrar</p>
+      ${anchorAndImgTag(src,'02','muestra de archivo')}
+      <p>(para los que usan linux)... <br> si usas una distribucion de linux como pop os o linux mint, el proceso es igual como en mi caso pero es probable que 
+        en linux necesites usar la linea de comando para extraer con el programa llamado "unzip". Una vez instales "unzip", deberias escribir "unzip" y el nombre del archivo(si estas adentro del directorio. si no estas adentro del directorio deberias incluir el directorio tambien) </p>
+      ${anchorAndImgTag(src,'03','muestra de como instalar en linux')}
+      <p>(para los que usan linux)... <br> si usas una distribucion de linux como pop os o linux mint, el proceso es igual como en mi caso pero es probable que 
+        en linux necesites usar la linea de comando para extraer con el programa llamado "unzip". Una vez instales "unzip", deberias escribir "unzip" y el nombre del archivo(si estas adentro del directorio. si no estas adentro del directorio deberias incluir el directorio tambien) </p>
+        <p>despues de extraer el archivo, deberias abrir la carpeta que dice "tronadoHard para windows"(o "tronadoHard para linux" si bajaste la version para linux)</p>
+      ${anchorAndImgTag(src,'04','abriendo la carpeta')}
+        <p>despues deberian ejecutar el instalador para forge que se llama "instalador para forge.jar" con java(antes del instalador de mods)</p>
+      ${anchorAndImgTag(src,'05','ejecutando el instalador para forge con java')}
+        <details>
+          <summary>haz click aqui si no tienes java instalado en tu pc</summary>
+          <p>deberias ir a la <a tittle="link de la pagina oficial" href="https://www.java.com/en/">pagina oficial de java</a> para bajartelo en windows</p>
+        ${anchorAndImgTag(src,'051','pagina oficial arriba en donde dice "pagina oficial de java"')}
+        <p>despues deberias hacer click donde dice "Download Java" </p>
+        ${anchorAndImgTag(src,'052','referencia al botom que tenes que hacer click')}
+        <p>despues deberias abrir el archivo ejecutable que se te bajo que es relacionado a java</p>
+        ${anchorAndImgTag(src,'053','instalar java')}
+        <p>una vez que se abrio el ejecutable, deberias poner donde dice "instalar"</p>
+        ${anchorAndImgTag(src,'054','referencia al boton que dice instalar')}
+        </details>
       </div>
       `;
       break;
