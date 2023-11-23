@@ -101,10 +101,30 @@ function openDialog() {
       ${anchorAndImgTag(src, '17', 'opciones para mods opcionales(mods)')}
         <p>en mi opinion, si tienes una pc mala pero queres disfrutar de algunos mods opcionales. Yo elijiria la opcion 3 o la 2, porque incluyen los mods mas importantes de los mods opcionales</p>
       ${anchorAndImgTag(src, '18', 'opciones para mods opcionales(mis preferencias)')}
-        <p>en mi caso, yo eleji la opcion 3 asi que precione el numero 3 y despues precione el enter(esa pc tenia 4 gb de ram pero un procesador decente)</p>
-      ${anchorAndImgTag(src, '19', 'opciones para mods opcionales(mis preferencias)')}
         <p>la primera opcion solo existe para la gente que tiene pc mala pero no tan mala. Para gente que le corre minecraft con varios mods pero que no les funciona el gta 5 apropiadamente(6-7 gb de ram de ddr3 mas o menos)</p>
       ${anchorAndImgTag(src, '20', 'opciones para mods opcionales(existencia de la opcion 1)')}
+        <p>en mi caso, yo eleji la opcion 3 asi que precione el numero 3 y despues precione el enter(esa pc tenia 4 gb de ram pero un procesador decente)</p>
+      ${anchorAndImgTag(src, '19', 'opciones para mods opcionales(mis preferencias)')}
+        <p>lean lo siguiente(te dice que preciones enter y esperes 2 segundos y que no cierres la ventana porque la ventana se cerrara solo. Si haces eso, la instalacion estara completa!)</p>
+      ${anchorAndImgTag(src, '21', 'y tronadoHard ya estaria instalado en tu computadora despues de hacer esto correctamente... ')}
+        <p>despues de la instalacion, para ver la version de forge cuando estes en el launcher Minecraft puedes ir a "instalacion"(a no ser que quieras elejir la version "47.1.43" en el launcher preterminado de minecraft)</p>
+      ${anchorAndImgTag(src, '22', 'fijandose en el launcher de Minecraft')}
+        <p>ve a "Nueva instalacion"</p>
+      ${anchorAndImgTag(src, '23', 'fijandose en el launcher de Minecraft(nueva instalacion)')}
+        <p>despues eleji la version que dice "release TronadoHard"</p>
+      ${anchorAndImgTag(src, '24', 'fijandose en el launcher de Minecraft(elejir la version correcta)')}
+        <p>pueden poner lo que quieran como nombre. Yo pondre "TronadoHard serie" asi recordare que esta version es para tronadoHard</p>
+      ${anchorAndImgTag(src, '25', 'fijandose en el launcher de Minecraft(poner el nombre que ustedes desean)')}
+        <p>si aparece esto en la version la instalacion, entonces lo hiciste bien!</p>
+      ${anchorAndImgTag(src, '26', 'nombre de la version')}
+        <p>para jugar en TronadoHard simplemente tenemos que elejir esa version con el nombre que le pusiste y ya(y el nombre de la ip en multiplayer)</p>
+      ${anchorAndImgTag(src, '27', 'fijandose en el launcher de Minecraft(poner el nombre que ustedes desean)')}
+        <p>en un launcher como launcher fenix, en perfil deberias poner "forge"</p>
+      ${anchorAndImgTag(src, '28', 'fijandose en el launcher de Minecraft(poner el nombre que ustedes desean)')}
+        <p>si la version se llama "???"... No se preocupen, eso es porque algunos launcher no aceptan letras como nombre de versiones en algunos rincones de algunos launcher pero Minecraft deberia funcionar bien</p>
+      ${anchorAndImgTag(src, '29', 'simbolo que puede preocupar a alguien pero no es grave')}
+        <p>pero si vas "version" y ves el nombre de la version, dira que es "tronadoHard" asi que esta todo bien</p>
+      ${anchorAndImgTag(src, '30', 'imagen para demostrar que todo esta bien')}
       </div>
       `;
       break;
