@@ -96,9 +96,15 @@ function openDialog() {
         <p>por supuesto, mi respuesta fue que si asi que aprete "s" y el enter</p>
       ${anchorAndImgTag(src, '15', 'backup(mi eleccion)')}
         <p>despues de que el backup se termine de crear, te aparecera esta ventana. Lo que tienes que hacer es elejir un numero, precionar ese numero y despues precionar el 'enter' pero lee con mucho cuidado(lee todo si es posible)</p>
-      ${anchorAndImgTag(src, '16', 'opcioens para mods opcionales')}
+      ${anchorAndImgTag(src, '16', 'opciones para mods opcionales')}
         <p>las siguientes lineas rojas, son los mods que se van a incluir si vos elejir cierta opcion</p>
-      ${anchorAndImgTag(src, '17', 'opcioens para mods opcionales(mods)')}
+      ${anchorAndImgTag(src, '17', 'opciones para mods opcionales(mods)')}
+        <p>en mi opinion, si tienes una pc mala pero queres disfrutar de algunos mods opcionales. Yo elijiria la opcion 3 o la 2, porque incluyen los mods mas importantes de los mods opcionales</p>
+      ${anchorAndImgTag(src, '18', 'opciones para mods opcionales(mis preferencias)')}
+        <p>en mi caso, yo eleji la opcion 3 asi que precione el numero 3 y despues precione el enter(esa pc tenia 4 gb de ram pero un procesador decente)</p>
+      ${anchorAndImgTag(src, '19', 'opciones para mods opcionales(mis preferencias)')}
+        <p>la primera opcion solo existe para la gente que tiene pc mala pero no tan mala. Para gente que le corre minecraft con varios mods pero que no les funciona el gta 5 apropiadamente(6-7 gb de ram de ddr3 mas o menos)</p>
+      ${anchorAndImgTag(src, '20', 'opciones para mods opcionales(existencia de la opcion 1)')}
       </div>
       `;
       break;
