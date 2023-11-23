@@ -21,7 +21,7 @@ let javaInstalation = `
         <p>una vez terminado aparecera "java se ha instalado correctamente" y solamente tienes que darle a "cerrar" y en windows ya esta</p>
         ${anchorAndImgTag(srcForJavaInstalation, '056', 'muestra de la barra')}
         <p class="linux">si usas linux con una distribucion que se basa en debian como ubuntu/linux mint o pop os como yo... Deberias abrir el terminal y escribir "sudo apt install openjdk-17-jdk", poner tu contrasenia y ya</p>
-        ${anchorAndImgTag(srcForJavaInstalation, '057', 'como hacerlo en linux',true)}
+        ${anchorAndImgTag(srcForJavaInstalation, '057', 'como hacerlo en linux', true)}
         </details>`
 
 function openDialog() {
@@ -75,7 +75,7 @@ function openDialog() {
         <p>despues deberian ejecutar el instalador para forge que se llama "instalador para forge.jar" con java(antes del instalador de mods)</p>
       ${anchorAndImgTag(src, '05', 'ejecutando el instalador para forge con java')}
         <p class="linux">en linux deberias ejecutar el archivo en la linea de comando con "java -jar [nombre del archivo](en mi caso podria escribir "instalador para forge.jar" o la otra opcion con guiones)</p>
-      ${anchorAndImgTag(src, '06', 'ejecutando el instalador para forge con java',true)}
+      ${anchorAndImgTag(src, '06', 'ejecutando el instalador para forge con java', true)}
         ${javaInstalation}
         <p>despues hacele click a "Install client" y pone en "aceptar"</p>
       ${anchorAndImgTag(src, '07', 'hacer click en "install client" y en "aceptar"')}
@@ -129,15 +129,20 @@ function openDialog() {
       `;
       break;
     case '2':
+      let src2 = `./images/basicGraphicDowngrader`
       dialog.innerHTML = `
       <div>
-        <ol>
-          <li>extrae el archivo zip</li>
-          <li>entra dentro de la carpeta 'tronadoHard Para Windows'</li>
-          <li>entra dentro de la carpeta 'Bajador de gráficos 3000'</li>
-          <li>ejecuta 'Bajador de grafico.exe'<br>(o tambien puedes ejecutar'Bajador de grafico en python.py' si tienes python instalado)</li>
-          <!-- keep on giving instructions here -->
-        </ol>
+        <p>despues de extraer el archivo, tendras que abrir la carpeta del bajador de graficos 3000</p>
+      ${anchorAndImgTag(src2, 'd01', 'abrir la carpeta del bajador de graficos')}
+        <p>despues tenes que abrir el ejecutable que dice "Bajador de graficos.exe"(tienes el archivo de python)</p>
+      ${anchorAndImgTag(src2, 'd02', 'abrir el bajador de graficos')}
+        <p>el instalador te va a preguntar si queres hacer un backup de tus configuraciones de minecraft(es recomendados que haga el backup por si perdes alguna configuracion que no querias perder)</p>
+      ${anchorAndImgTag(src2, 'd03', 'abrir el bajador de graficos')}
+        <p>yo escribi que si y precione enter en mi caso porque queria un backup de mi configuracion anterior de Minecraft</p>
+      ${anchorAndImgTag(src2, 'd04', 'abrir el bajador de graficos')}
+        <p>una vez que aparezca este mensaje... Lo unico que tienes que hacer es precionar el enter y despues esperar 2 segundos(sin cerrar la ventana manualmente porque el programa lo hara solo cuando el intalador termine exitosamente. Porfavor no cierres la ventana)</p>
+      ${anchorAndImgTag(src2, 'd05', 'abrir el bajador de graficos')}
+
       </div>
           `;
       break;
@@ -147,10 +152,10 @@ function openDialog() {
 }
 
 
-function anchorAndImgTag(src, number, message,linuxClass = false) {
-let elementClass = `class='' `;
-  if(linuxClass){
-elementClass = `class='linux' `
+function anchorAndImgTag(src, number, message, linuxClass = false) {
+  let elementClass = `class='' `;
+  if (linuxClass) {
+    elementClass = `class='linux' `
 
   }
   return `<a target="_blank"  href="${src}/${number}.png"> <img ${elementClass} src="${src}/${number}.png" tittle="${message}" alt="${message}"></a>`
