@@ -31,7 +31,7 @@ function openDialog() {
       dialog.innerHTML = `
       <div>
         <button><a href="zipFiles/window.zip" download="tronadoHardWindow.zip">descargar Instaladores para window</a></button>
-        <button><a href="zipFiles/linux.zip" download="tronadoHardWindow.zip">descargar Instaladores para linux</a></button>
+        <button><a href="zipFiles/linux.zip" download="tronado Hard Para Linux.zip">descargar Instaladores para linux</a></button>
         <h2>links externos:</h2>
         <ul>
           <details>
@@ -40,7 +40,7 @@ function openDialog() {
             </summary>
             <section>
               <button><a target="_blank" href="https://www.mediafire.com/file/nclqqzvonlry3i2/tronadoHard_para_window.zip/file">windows</a></button>
-              <button><a target="_blank" href="https://www.mediafire.com/file/mhyltsr9aoe2abo/tronadoHard_para_linux.zip/file">linux</a></button>
+              <button><a target="_blank" href="https://www.mediafire.com/file/x2xlqdv0p8cjcc7/tronadoHard_para_linux.zip/file">linux</a></button>
             </section>
           </details>
           <details>
