@@ -26,6 +26,11 @@ let javaInstalation = `
 
 function openDialog() {
   console.log(this)
+  let src = `./images/basicInstalation`;
+  let src2 = `./images/basicGraphicDowngrader`
+  let src3 = `./images/advanceInstalation`;
+  let src4 = `./images/downgradeGraphicManually`;
+
   switch (this.dataset.id) {
     case "0":
       dialog.innerHTML = `
@@ -57,7 +62,6 @@ function openDialog() {
       `;
       break;
     case '1':
-      let src = `./images/basicInstalation`
       dialog.innerHTML = `
       <div>
       <p>hacele click a las imagenes si quieres verlos en pantalla completa</p>
@@ -66,7 +70,7 @@ function openDialog() {
         <ol>
           <li>instalar forge con el instalador para forge</li>
           <li>instalar los mods con el instalador para los mods(leyendo lo que dice el instalador)</li>
-          <li>elijiendo la version correcta de minecraft a la hora de entrar a tronadoHard(forge version "47.1.43" o forge version "tronadoHard")</li>
+          <li>elijiendo la version correcta de minecraft a la hora de entrar a tronadoHard(forge version "tronadoHard")</li>
         </ol>
       <p>y ya... Pero eso no seria util para mucha gente asi que este un tutorial detallado de la forma simple de instalar mods</p>
       ${anchorAndImgTag(src, '00', 'welcome image')}
@@ -114,7 +118,7 @@ function openDialog() {
       ${anchorAndImgTag(src, '19', 'opciones para mods opcionales(mis preferencias)')}
         <p>lean lo siguiente(te dice que preciones enter y esperes 2 segundos y que no cierres la ventana porque la ventana se cerrara solo. Si haces eso, la instalacion estara completa!)</p>
       ${anchorAndImgTag(src, '21', 'y tronadoHard ya estaria instalado en tu computadora despues de hacer esto correctamente... ')}
-        <p>despues de la instalacion, para ver la version de forge cuando estes en el launcher Minecraft puedes ir a "instalacion"(a no ser que quieras elejir la version "47.1.43" en el launcher preterminado de minecraft)</p>
+        <p>despues de la instalacion, para ver la version de forge cuando estes en el launcher de Minecraft puedes ir a "instalacion" en el launcher preterminado de minecraft(a no ser que quieras elejir la version "47.1.43" que es lo mismo pero esto es para gente que no puede memorizar esos numeros antes de entrar. )</p>
       ${anchorAndImgTag(src, '22', 'fijandose en el launcher de Minecraft')}
         <p>ve a "Nueva instalacion"</p>
       ${anchorAndImgTag(src, '23', 'fijandose en el launcher de Minecraft(nueva instalacion)')}
@@ -136,7 +140,6 @@ function openDialog() {
       `;
       break;
     case '2':
-      let src2 = `./images/basicGraphicDowngrader`
       dialog.innerHTML = `
       <div>
         <p>despues de extraer el archivo, tendras que abrir la carpeta del bajador de graficos 3000</p>
@@ -149,12 +152,69 @@ function openDialog() {
       ${anchorAndImgTag(src2, 'd04', 'abrir el bajador de graficos')}
         <p>una vez que aparezca este mensaje... Lo unico que tienes que hacer es precionar el enter y despues esperar 2 segundos(sin cerrar la ventana manualmente porque el programa lo hara solo cuando el intalador termine exitosamente. Porfavor no cierres la ventana)</p>
       ${anchorAndImgTag(src2, 'd05', 'abrir el bajador de graficos')}
-
       </div>
           `;
       break;
-    case 3:
+    case '3':
+      dialog.innerHTML = `
+      <div>
+      <p>hacele click a las imagenes si quieres verlos en pantalla completa</p>
+      <p class="linux">si eres usuario de windows, ignora las letras azules o las imagenes con bordes azules. Son para usuarios de linux</p>
+      <p>este tutorial se resume en:</p>
+        <ol>
+          <li>instalar forge con el instalador para forge</li>
+          <li>hacer un backup/copia de la carpeta y copiar mods nuevo a la carpeta de mods que esta adentro de la carpeta de Minecraft</li>
+          <li>elijiendo la version correcta de minecraft a la hora de entrar a tronadoHard(forge version "47.1.43")</li>
+        </ol>
+      <p>y ya... Pero eso no seria util para mucha gente asi que este un tutorial detallado de la forma manual de instalar mods</p>
+      ${anchorAndImgTag(src, '00', 'welcome image')}
+      <p>despues de bajar el instalador tienes que extraerlos(probablemente el archivo zip tenga otro nombre)</p>
+      ${anchorAndImgTag(src, '01', 'muestra de archivo')}
+      <p>usualmente extraeria en windows haria click derecho y seleccionaria "extraer aqui" si tuviera winrar</p>
+      ${anchorAndImgTag(src, '02', 'muestra de archivo')}
+      <p class="linux">(para los que usan linux)... <br> si usas una distribucion de linux como pop os o linux mint, el proceso es igual como en mi caso pero es probable que 
+        en linux necesites usar la linea de comando para extraer con el programa llamado "unzip". Una vez instales "unzip", deberias escribir "unzip" y el nombre del archivo(si estas adentro del directorio. si no estas adentro del directorio deberias incluir el directorio tambien) </p>
+      ${anchorAndImgTag(src, '03', 'muestra de como instalar en linux', true)}
+        <p>despues de extraer el archivo, deberias abrir la carpeta que dice "tronadoHard para windows"(o "tronadoHard para linux" si bajaste la version para linux)</p>
+      ${anchorAndImgTag(src, '04', 'abriendo la carpeta')}
+        <p>despues deberian ejecutar el instalador para forge que se llama "instalador para forge.jar" con java(antes del instalador de mods)</p>
+      ${anchorAndImgTag(src, '05', 'ejecutando el instalador para forge con java')}
+        <p class="linux">en linux deberias ejecutar el archivo en la linea de comando con "java -jar [nombre del archivo](en mi caso podria escribir "instalador para forge.jar" o la otra opcion con guiones)</p>
+      ${anchorAndImgTag(src, '06', 'ejecutando el instalador para forge con java', true)}
+        ${javaInstalation}
+        <p>despues hacele click a "Install client" y pone en "aceptar"</p>
+      ${anchorAndImgTag(src, '07', 'hacer click en "install client" y en "aceptar"')}
+        <p>tendras que esperar luego</p>
+      ${anchorAndImgTag(src, '08', 'esperando al instalador')}
+        <p>luego aparecera el siguiente cartel y le tienes que dar a "aceptar"</p>
+      ${anchorAndImgTag(src, '09', 'finalizar instalacion de forge')}
+        <!-- improve this part -->
 
+        <p>ve a "Nueva instalacion"</p>
+      ${anchorAndImgTag(src, '23', 'fijandose en el launcher de Minecraft(nueva instalacion)')}
+        <p>despues eleji la version que dice "release TronadoHard"</p>
+      ${anchorAndImgTag(src, '24', 'fijandose en el launcher de Minecraft(elejir la version correcta)')}
+        <p>pueden poner lo que quieran como nombre. Yo pondre "TronadoHard serie" asi recordare que esta version es para tronadoHard</p>
+      ${anchorAndImgTag(src, '25', 'fijandose en el launcher de Minecraft(poner el nombre que ustedes desean)')}
+        <p>si aparece esto en la version la instalacion, entonces lo hiciste bien!</p>
+      ${anchorAndImgTag(src, '26', 'nombre de la version')}
+        <p>para jugar en TronadoHard simplemente tenemos que elejir esa version con el nombre que le pusiste y ya(y el nombre de la ip en multiplayer)</p>
+      ${anchorAndImgTag(src, '27', 'fijandose en el launcher de Minecraft(poner el nombre que ustedes desean)')}
+        <p>en un launcher como launcher fenix, en perfil deberias poner "forge"</p>
+      ${anchorAndImgTag(src, '28', 'fijandose en el launcher de Minecraft(poner el nombre que ustedes desean)')}
+        <p>si la version se llama "???"... No se preocupen, eso es porque algunos launcher no aceptan letras como nombre de versiones en algunos rincones de algunos launcher pero Minecraft deberia funcionar bien</p>
+      ${anchorAndImgTag(src, '29', 'simbolo que puede preocupar a alguien pero no es grave')}
+        <p>pero si vas "version" y ves el nombre de la version, dira que es "tronadoHard" asi que esta todo bien</p>
+      ${anchorAndImgTag(src, '30', 'imagen para demostrar que todo esta bien')}
+      </div>`;
+      break;
+    case '4':
+      dialog.innerHTML = `
+      <div>
+        <p>el primer paso es abrir Minecraft</p>
+      </div>
+          `;
+      break;
 
   }
   dialog.showModal()
