@@ -48,8 +48,8 @@ function openDialog() {
               Google Drive
             </summary>
             <section>
-              <button><a target="_blank" href="https://drive.google.com/drive/folders/1HKKs15ZVdVkc9Utph76uiq4Hgb1i59fS">windows</a></button>
-              <button><a target="_blank" href="https://drive.google.com/file/d/1isAF_bGc4fRokW16WpBCa1FGIw8PjeBt/view?usp=sharing">linux</a></button>
+              <button><a target="_blank" href="https://drive.google.com/file/d/1i0VhNKCFvL9hG_2dy2xYfz-JwY6JTom5/view?usp=sharing">windows</a></button>
+              <button><a target="_blank" href="https://drive.google.com/file/d/1kmSqs_gCLxobYXEnuzQ5dPlHxhzr5kJw/view?usp=sharing">linux</a></button>
             </section>
           </details>
         </ul>
