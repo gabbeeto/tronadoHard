@@ -62,6 +62,13 @@ function openDialog() {
       <div>
       <p>hacele click a las imagenes si quieres verlos en pantalla completa</p>
       <p class="linux">si eres usuario de windows, ignora las letras azules o las imagenes con bordes azules. Son para usuarios de linux</p>
+      <p>este tutorial se resume en:</p>
+        <ol>
+          <li>instalar forge con el instalador para forge</li>
+          <li>instalar los mods con el instalador para los mods(leyendo lo que dice el instalador)</li>
+          <li>elijiendo la version correcta de minecraft a la hora de entrar a tronadoHard(forge version "47.1.43" o forge version "tronadoHard")</li>
+        </ol>
+      <p>y ya... Pero eso no seria util para mucha gente asi que este un tutorial detallado de la forma simple de instalar mods</p>
       ${anchorAndImgTag(src, '00', 'welcome image')}
       <p>despues de bajar el instalador tienes que extraerlos(probablemente el archivo zip tenga otro nombre)</p>
       ${anchorAndImgTag(src, '01', 'muestra de archivo')}
@@ -95,7 +102,7 @@ function openDialog() {
       ${anchorAndImgTag(src, '14', 'backup')}
         <p>por supuesto, mi respuesta fue que si asi que aprete "s" y el enter</p>
       ${anchorAndImgTag(src, '15', 'backup(mi eleccion)')}
-        <p>despues de que el backup se termine de crear, te aparecera esta ventana. Lo que tienes que hacer es elejir un numero, precionar ese numero y despues precionar el 'enter' pero lee con mucho cuidado(lee todo si es posible)</p>
+        <p>despues de que el backup se termine de crear, te aparecera esta ventana(si elejiste la opcion 1 que es para pc malas, todo esta seccion la puedes saltear si elejiste la opcion 2). Lo que tienes que hacer es elejir un numero, precionar ese numero y despues precionar el 'enter' pero lee con mucho cuidado(lee todo si es posible)</p>
       ${anchorAndImgTag(src, '16', 'opciones para mods opcionales')}
         <p>las siguientes lineas rojas, son los mods que se van a incluir si vos elejir cierta opcion</p>
       ${anchorAndImgTag(src, '17', 'opciones para mods opcionales(mods)')}
@@ -146,6 +153,8 @@ function openDialog() {
       </div>
           `;
       break;
+    case 3:
+
 
   }
   dialog.showModal()
