@@ -44,8 +44,8 @@ function openDialog() {
              Mediafire
             </summary>
             <section>
-              <button><a target="_blank" href="https://www.mediafire.com/file/k18fo8igm5hdjq2/tronadoHard_para_window.zip/file">windows</a></button>
-              <button><a target="_blank" href="https://www.mediafire.com/file/d2u1hmc2nesggvw/tronadoHard_para_linux.zip/file">linux</a></button>
+              <button><a target="_blank" href="https://www.mediafire.com/file/517tjlbctznna8e/window.zip/file">windows</a></button>
+              <button><a target="_blank" href="https://www.mediafire.com/file/mflyor0dvzi7310/linux.zip/file">linux</a></button>
             </section>
           </details>
           <details>
@@ -53,8 +53,8 @@ function openDialog() {
               Google Drive
             </summary>
             <section>
-              <button><a target="_blank" href="https://drive.google.com/file/d/1i0VhNKCFvL9hG_2dy2xYfz-JwY6JTom5/view?usp=sharing">windows</a></button>
-              <button><a target="_blank" href="https://drive.google.com/file/d/1kmSqs_gCLxobYXEnuzQ5dPlHxhzr5kJw/view?usp=sharing">linux</a></button>
+              <button><a target="_blank" href="https://drive.google.com/file/d/1eRIwnHzvQR9OB_ns2r9I2nXUD_1WTh1X/view?usp=sharing">windows</a></button>
+              <button><a target="_blank" href="https://drive.google.com/file/d/17Jc6gFGVs173XtB6NwXb9JMzD3-NxmKE/view?usp=sharing">linux</a></button>
             </section>
           </details>
         </ul>
