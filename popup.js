@@ -53,8 +53,8 @@ function openDialog() {
               Google Drive
             </summary>
             <section>
-              <button><a target="_blank" href="https://drive.google.com/file/d/14p0Fwng0dxnhdH7x8m5GWuzm0RG8vv8i/view?usp=sharing">windows</a></button>
               <button><a target="_blank" href="https://drive.google.com/file/d/1amkt8H6R3FCI_7NpmtogOqELR-4kbJY-/view?usp=sharing">linux</a></button>
+              <button><a target="_blank" href="https://drive.google.com/file/d/14p0Fwng0dxnhdH7x8m5GWuzm0RG8vv8i/view?usp=sharing">windows</a></button>
             </section>
           </details>
         </ul>
@@ -118,24 +118,7 @@ function openDialog() {
       ${anchorAndImgTag(src, '19', 'opciones para mods opcionales(mis preferencias)')}
         <p>lean lo siguiente(te dice que preciones enter y esperes 2 segundos y que no cierres la ventana porque la ventana se cerrara solo. Si haces eso, la instalacion estara completa!)</p>
       ${anchorAndImgTag(src, '21', 'y tronadoHard ya estaria instalado en tu computadora despues de hacer esto correctamente... ')}
-        <p>despues de la instalacion, para ver la version de forge cuando estes en el launcher de Minecraft puedes ir a "instalacion" en el launcher preterminado de minecraft(a no ser que quieras elejir la version "47.1.43" que es lo mismo pero esto es para gente que no puede memorizar esos numeros antes de entrar. )</p>
-      ${anchorAndImgTag(src, '22', 'fijandose en el launcher de Minecraft')}
-        <p>ve a "Nueva instalacion"</p>
-      ${anchorAndImgTag(src, '23', 'fijandose en el launcher de Minecraft(nueva instalacion)')}
-        <p>despues eleji la version que dice "release TronadoHard"</p>
-      ${anchorAndImgTag(src, '24', 'fijandose en el launcher de Minecraft(elejir la version correcta)')}
-        <p>pueden poner lo que quieran como nombre. Yo pondre "TronadoHard serie" asi recordare que esta version es para tronadoHard</p>
-      ${anchorAndImgTag(src, '25', 'fijandose en el launcher de Minecraft(poner el nombre que ustedes desean)')}
-        <p>si aparece esto en la version la instalacion, entonces lo hiciste bien!</p>
-      ${anchorAndImgTag(src, '26', 'nombre de la version')}
-        <p>para jugar en TronadoHard simplemente tenemos que elejir esa version con el nombre que le pusiste y ya(y el nombre de la ip en multiplayer)</p>
-      ${anchorAndImgTag(src, '27', 'fijandose en el launcher de Minecraft(poner el nombre que ustedes desean)')}
-        <p>en un launcher como launcher fenix, en perfil deberias poner "forge"</p>
-      ${anchorAndImgTag(src, '28', 'fijandose en el launcher de Minecraft(poner el nombre que ustedes desean)')}
-        <p>si la version se llama "???"... No se preocupen, eso es porque algunos launcher no aceptan letras como nombre de versiones en algunos rincones de algunos launcher pero Minecraft deberia funcionar bien</p>
-      ${anchorAndImgTag(src, '29', 'simbolo que puede preocupar a alguien pero no es grave')}
-        <p>pero si vas "version" y ves el nombre de la version, dira que es "tronadoHard" asi que esta todo bien</p>
-      ${anchorAndImgTag(src, '30', 'imagen para demostrar que todo esta bien')}
+        <p>y creeria que esto es suficiente para poder jugar tronadoHard en tu pc, simplemente no olvides jugar la version "tronadoHard" en tu launcher. Y si tu launcher no acepta instalaciones cuztomizadas, te recomendaria jugar la version 47.1.43 de forge(es lo mismo, simplemente llame una version TronadoHard para hacer la vida mas facil a algunos)</p>
       </div>
       `;
       break;
@@ -152,6 +135,7 @@ function openDialog() {
       ${anchorAndImgTag(src2, 'd04', 'abrir el bajador de graficos')}
         <p>una vez que aparezca este mensaje... Lo unico que tienes que hacer es precionar el enter y despues esperar 2 segundos(sin cerrar la ventana manualmente porque el programa lo hara solo cuando el intalador termine exitosamente. Porfavor no cierres la ventana)</p>
       ${anchorAndImgTag(src2, 'd05', 'abrir el bajador de graficos')}
+        <p>Y esto seria todo, podrias tal vez bajarle la resolucion al Minecraft si aun tienes fps bajo(tengo buenas razones para no incluir esto en el bajador de graficos). Y si usas windows y el Minecraft aun te anda lento, recomiendo chequear los videos que estan dentro de "Links para hacer 'Windows' mas liviano' y ver si el juego te puede correr mejor"</p>
       </div>
           `;
       break;
