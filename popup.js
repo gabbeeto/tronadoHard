@@ -44,8 +44,8 @@ function openDialog() {
              Mediafire
             </summary>
             <section>
-              <button><a target="_blank" href="https://www.mediafire.com/file/962c03au14f6wu7/window.zip/file">windows</a></button>
-              <button><a target="_blank" href="https://www.mediafire.com/file/ommb4q8hsikzomt/linux.zip/file">linux</a></button>
+              <button><a target="_blank" href="https://www.mediafire.com/file/qqnyd7eqbo1dw72/window.zip/file">windows</a></button>
+              <button><a target="_blank" href="https://www.mediafire.com/file/4iwkl4b7iu2wbl5/linux.zip/file">linux</a></button>
             </section>
           </details>
           <details>
@@ -53,8 +53,8 @@ function openDialog() {
               Google Drive
             </summary>
             <section>
-              <button><a target="_blank" href="https://drive.google.com/file/d/1amkt8H6R3FCI_7NpmtogOqELR-4kbJY-/view?usp=sharing">linux</a></button>
-              <button><a target="_blank" href="https://drive.google.com/file/d/14p0Fwng0dxnhdH7x8m5GWuzm0RG8vv8i/view?usp=sharing">windows</a></button>
+              <button><a target="_blank" href="https://drive.google.com/file/d/1oCAea8cAL6A0Q0hH22FJC1QJ2_RviH4f/view?usp=sharing">linux</a></button>
+              <button><a target="_blank" href="https://drive.google.com/file/d/161ciUPE34UxRlNiYpufgvRPkFSELWp2C/view?usp=sharing">windows</a></button>
             </section>
           </details>
         </ul>
@@ -80,8 +80,8 @@ function openDialog() {
       ${anchorAndImgTag(src, '02', 'muestra de archivo')}
       <p class="linux">(para los que usan linux)... <br> si usas una distribucion de linux como pop os o linux mint, el proceso es igual como en mi caso pero es probable que 
         en linux necesites usar la linea de comando para extraer con el programa llamado "unzip". Una vez instales "unzip", deberias escribir "unzip" y el nombre del archivo(si estas adentro del directorio. si no estas adentro del directorio deberias incluir el directorio tambien) </p>
-      ${anchorAndImgTag(src, '03', 'muestra de como instalar en linux', true)}
         <p>despues de extraer el archivo, deberias abrir la carpeta que dice "tronadoHard para windows"(o "tronadoHard para linux" si bajaste la version para linux)</p>
+      ${anchorAndImgTag(src, '03', 'muestra de como instalar en linux', true)}
       ${anchorAndImgTag(src, '04', 'abriendo la carpeta')}
         <p>despues deberian ejecutar el instalador para forge que se llama "instalador para forge.jar" con java(antes del instalador de mods)</p>
       ${anchorAndImgTag(src, '05', 'ejecutando el instalador para forge con java')}
