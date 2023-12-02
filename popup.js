@@ -44,8 +44,8 @@ function openDialog() {
              Mediafire
             </summary>
             <section>
-              <button><a target="_blank" href="https://www.mediafire.com/file/3ll619ximjbjb9k/windows.zip/file">windows</a></button>
-              <button><a target="_blank" href="https://www.mediafire.com/file/adxxnh6m6xxvctd/linux.zip/file">linux</a></button>
+              <button><a target="_blank" href="https://www.mediafire.com/file/cxdtxoqdmc6taq6/windows.zip/file">windows</a></button>
+              <button><a target="_blank" href="https://www.mediafire.com/file/rm0fp8n53xfdsdp/linux.zip/file">linux</a></button>
             </section>
           </details>
           <details>
@@ -53,8 +53,8 @@ function openDialog() {
               Google Drive
             </summary>
             <section>
-              <button><a target="_blank" href="https://drive.google.com/file/d/1sj1fV8pUrj-NWG4eTWv_0eS5bPMAYKY1/view?usp=sharing">linux</a></button>
-              <button><a target="_blank" href="https://drive.google.com/file/d/1D6jBv8nWHKseg6BhtXHkB5fzye1PqDwD/view?usp=sharing">windows</a></button>
+              <button><a target="_blank" href="https://drive.google.com/file/d/19NGye_Zt8lhqHDMHoS_vyfAdhOgInpaG/view?usp=sharing">linux</a></button>
+              <button><a target="_blank" href="https://drive.google.com/file/d/1sfVzSSzC_cXrAJzUZ0jpKncmqjEkYZnZ/view?usp=sharing">windows</a></button>
             </section>
           </details>
         </ul>
