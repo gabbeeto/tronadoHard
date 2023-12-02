@@ -35,7 +35,7 @@ function openDialog() {
     case "0":
       dialog.innerHTML = `
       <div>
-        <button><a href="zipFiles/window.zip" download="TronadoHard Para Windows.zip">descargar Instaladores para window</a></button>
+        <button><a href="zipFiles/windows.zip" download="TronadoHard Para Windows.zip">descargar Instaladores para window</a></button>
         <button><a href="zipFiles/linux.zip" download="TronadoHard Para Linux.zip">descargar Instaladores para linux</a></button>
         <h2>links externos:</h2>
         <ul>
@@ -44,8 +44,8 @@ function openDialog() {
              Mediafire
             </summary>
             <section>
-              <button><a target="_blank" href="https://www.mediafire.com/file/qqnyd7eqbo1dw72/window.zip/file">windows</a></button>
-              <button><a target="_blank" href="https://www.mediafire.com/file/4iwkl4b7iu2wbl5/linux.zip/file">linux</a></button>
+              <button><a target="_blank" href="https://www.mediafire.com/file/9nbldt83qx8qo29/windows.zip/file">windows</a></button>
+              <button><a target="_blank" href="https://www.mediafire.com/file/ze2ydvxr5pyyt1k/linux.zip/file">linux</a></button>
             </section>
           </details>
           <details>
@@ -53,8 +53,8 @@ function openDialog() {
               Google Drive
             </summary>
             <section>
-              <button><a target="_blank" href="https://drive.google.com/file/d/1oCAea8cAL6A0Q0hH22FJC1QJ2_RviH4f/view?usp=sharing">linux</a></button>
-              <button><a target="_blank" href="https://drive.google.com/file/d/161ciUPE34UxRlNiYpufgvRPkFSELWp2C/view?usp=sharing">windows</a></button>
+              <button><a target="_blank" href="https://drive.google.com/file/d/1N1XTrjCw0-gtg4QZJMLTYxFDm6NUGiZ2/view?usp=sharing">linux</a></button>
+              <button><a target="_blank" href="https://drive.google.com/file/d/1kaiHK3ql31o1-CGnHUY0Y0vF6VJCmCMX/view?usp=sharing">windows</a></button>
             </section>
           </details>
         </ul>
