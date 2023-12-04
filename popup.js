@@ -108,7 +108,10 @@ function openDialog() {
         <details>
           <summary>mods opcionales</summary>
           <section>
-
+            <h2>todos los mods que son opcionales. Estaran ordenados en base a 'importancia de mod'/'consumo de pc' con la opinion de Gabbeeto</h2>
+            <dl>
+              <dt>Optifine</dt>
+            </dl>
           </section>
         </details>
       </div>
