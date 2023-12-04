@@ -37,7 +37,7 @@ function openDialog() {
       <div>
         <button><a href="zipFiles/windows.zip" download="TronadoHard Para Windows.zip">descargar Instaladores para window</a></button>
         <button><a href="zipFiles/linux.zip" download="TronadoHard Para Linux.zip">descargar Instaladores para linux</a></button>
-        <h2>links externos:</h2>
+        <h2>links externos por Gabbeeto:</h2>
         <ul>
           <details>
             <summary>
@@ -58,6 +58,59 @@ function openDialog() {
             </section>
           </details>
         </ul>
+
+        <h2>Informacion de mods y links de curseforge:</h2>
+        <details>
+          <summary>mods necesarios para entrar al server</summary>
+          <section>
+            <h2>todos los mods requeridos son mods que si o si necesitas para entrar al server</h2>
+            <dl>
+              <dt>MrCrayfish's Furniture Mod</dt>
+              <dd>Descripcion: Mod de decoracion<br>version:7.0.0-pre36<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod">https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod</a>  </dd>
+
+              <dt>Create Mod</dt>
+              <dd>Descripcion: Mod de fabricas y automatizacion<br>version:0.5.1.f<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/create">https://www.curseforge.com/minecraft/mc-mods/create</a>  </dd>
+
+              <dt>End Remastered</dt>
+              <dd>Descripcion: Mods que aumenta la dificultad para ir al end<br>version:R-1.20.X<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/endremastered">https://www.curseforge.com/minecraft/mc-mods/endremastered</a>  </dd>
+
+              <dt>Farmer's Delight</dt>
+              <dd>Descripcion: Mod que expande la agricultura<br>version:1.2.3<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight/">https://www.curseforge.com/minecraft/mc-mods/farmers-delight/</a>  </dd>
+
+              <dt>Lootr</dt>
+              <dd>Descripcion: Mod que cambia mecanicas del loot<br>version:0.7.30.73<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/lootr/">https://www.curseforge.com/minecraft/mc-mods/lootr/</a>  </dd>
+
+              <dt>Sophisticated Backpacks</dt>
+              <dd>Descripcion: Mod de mochila<br>version:3.19.1.962<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks">https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks</a>  </dd>
+
+
+              <dt>Sophisticated Core</dt>
+              <dd>Descripcion: dependencia para 'Sophisticated Backpacks'<br>version:0.5.108.504<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/">https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/</a>  </dd>
+
+
+              <dt>Waystones</dt>
+              <dd>Descripcion: Mod para tener una piedra del camino que nos deja telestransportarnos<br>version:4.0.2<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/waystones/">https://www.curseforge.com/minecraft/mc-mods/waystones/</a>  </dd>
+
+
+              <dt>Balm</dt>
+              <dd>Descripcion: Dependencia para 'Waystones'<br>version:7.1.4<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/balm">https://www.curseforge.com/minecraft/mc-mods/balm</a>  </dd>
+
+
+              <dt>Music Maker Mod</dt>
+              <dd>Descripcion: Mod para hacer musica<br>version:1.0.0<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/music-maker-mod">https://www.curseforge.com/minecraft/mc-mods/music-maker-mod</a>  </dd>
+
+
+              <dt>Joy of Painting</dt>
+              <dd>Descripcion: Mod para artistas que quieren dibujar<br>version:1.0.0<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/joy-of-painting">https://www.curseforge.com/minecraft/mc-mods/joy-of-painting</a>  </dd>
+            </dl>
+          </section>
+        </details>
+        <details>
+          <summary>mods opcionales</summary>
+          <section>
+
+          </section>
+        </details>
       </div>
       `;
       break;
