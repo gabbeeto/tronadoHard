@@ -19,6 +19,7 @@ src: url('./fonts/Minecraft.ttf');
 :root{
 --red:#842D78;
 --yellow: #E5A836;
+--green: #36E5B7;
 --darkPink: #B2336C;
 --blue: #297EA1;
 --darkBlue: #174DB1;
@@ -139,4 +140,50 @@ p.linux{
 
 img.linux{
   border:2px solid var(--blue);
+}
+
+dl{
+display:flex;
+flex-direction:column;
+gap: 20px;
+}
+
+.modContainer{
+background-color: var(--green);
+border-radius:10px;
+}
+
+.modContainer > dt{
+color: var(--darkBlue);
+padding-top: 10px;
+font-size: min(2.8vw,2.7rem);
+}
+
+dd a:first-of-type{
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+}
+
+dd a:last-of-type{
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+}
+
+dd a{
+background-color: var(--blue);
+display: block;
+}
+
+dd > dl > dt{
+color: var(--red);
+font-size: min(2vw,2.3rem);
+}
+
+
+dd > dl > dd{
+font-size: min(1.2vw,1.6rem);
+}
+
+dialog h2{
+font-size: min(2.8vw,2.7rem);
 }

@@ -65,8 +65,7 @@ function openDialog() {
           <section>
             <h2>todos los mods requeridos son mods que si o si necesitas para entrar al server</h2>
             <dl>
-
-
+            <div class="modContainer">
               <dt>MrCrayfish's Furniture Mod</dt>
               <dd>
                 <dl>
@@ -81,7 +80,9 @@ function openDialog() {
                 </dl>
               </dd>
 
+              </div>
 
+            <div class="modContainer">
               <dt>Create Mod</dt>
               <dd>
                 <dl>
@@ -95,7 +96,8 @@ function openDialog() {
                   <dd><a href="https://www.curseforge.com/minecraft/mc-mods/create">https://www.curseforge.com/minecraft/mc-mods/create</a></dd>
                 </dl>
               </dd>
-
+                </div>
+<div class="modContainer">
               <dt>End Remastered</dt>
               <dd>
                 <dl>
@@ -108,8 +110,9 @@ function openDialog() {
                   <dt>Link:</dt>
                   <dd><a href="https://www.curseforge.com/minecraft/mc-mods/endremastered">https://www.curseforge.com/minecraft/mc-mods/endremastered</a></dd>
                 </dl>
-              </dd>
+              </dd></div>
 
+              <div class="modContainer">
               <dt>Farmer's Delight</dt>
               <dd>
                 <dl>
@@ -123,7 +126,8 @@ function openDialog() {
                   <dd><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight/">https://www.curseforge.com/minecraft/mc-mods/farmers-delight/</a></dd>
                 </dl>
               </dd>
-
+</div>
+              <div class="modContainer">
               <dt>Lootr</dt>
               <dd>
                 <dl>
@@ -137,9 +141,9 @@ function openDialog() {
                   <dd><a href="https://www.curseforge.com/minecraft/mc-mods/lootr/">https://www.curseforge.com/minecraft/mc-mods/lootr/</a></dd>
                 </dl>
               </dd>
+</div>
 
-
-
+<div class="modContainer">
               <dt>Sophisticated Backpacks</dt>
               <dd>
                 <dl>
@@ -153,9 +157,9 @@ function openDialog() {
                   <dd><a href="https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks">https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks</a></dd>
                 </dl>
               </dd>
+</div>
 
-
-
+<div class="modContainer">
               <dt>Sophisticated Core</dt>
               <dd>
                 <dl>
@@ -169,9 +173,9 @@ function openDialog() {
                   <dd><a href="https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/">https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/</a></dd>
                 </dl>
               </dd>
+</div>
 
-
-
+<div class="modContainer">
               <dt>Waystones</dt>
               <dd>
                 <dl>
@@ -185,8 +189,8 @@ function openDialog() {
                   <dd><a href="https://www.curseforge.com/minecraft/mc-mods/waystones/">https://www.curseforge.com/minecraft/mc-mods/waystones/</a></dd>
                 </dl>
               </dd>
-
-
+</div>
+<div class="modContainer">
               <dt>Balm</dt>
               <dd>
                 <dl>
@@ -200,8 +204,9 @@ function openDialog() {
                   <dd><a href="https://www.curseforge.com/minecraft/mc-mods/balm">https://www.curseforge.com/minecraft/mc-mods/balm</a></dd>
                 </dl>
               </dd>
+</div>
 
-
+              <div class="modContainer">
               <dt>Music Maker Mod</dt>
               <dd>
                 <dl>
@@ -215,8 +220,9 @@ function openDialog() {
                   <dd><a href="https://www.curseforge.com/minecraft/mc-mods/music-maker-mod">https://www.curseforge.com/minecraft/mc-mods/music-maker-mod</a></dd>
                 </dl>
               </dd>
+</div>
 
-
+              <div class="modContainer">
               <dt>Joy of Painting</dt>
               <dd>
                 <dl>
@@ -229,7 +235,7 @@ function openDialog() {
                   <dt>Link:</dt>
                   <dd><a href="https://www.curseforge.com/minecraft/mc-mods/joy-of-painting">https://www.curseforge.com/minecraft/mc-mods/joy-of-painting</a></dd>
                 </dl>
-              </dd>
+              </dd></div>
 
 
 
@@ -240,6 +246,7 @@ function openDialog() {
           <summary>mods opcionales</summary>
           <section>
             <h2>todos los mods que son opcionales. Estaran ordenados en base a 'importancia de mod'/'consumo de pc' con la opinion de Gabbeeto</h2>
+            <div class="modContainer">
             <dl>
               <dt>Optifine(esta en la carpeta de mod requeridos)</dt>
               <dd>
@@ -257,7 +264,10 @@ function openDialog() {
                   <dd><a href="https://optifine.net/downloads">https://optifine.net/downloads</a></dd>
                 </dl>
               </dd>
+</div>
 
+
+<div class="modContainer">
               <dt>Plasmo Voice</dt>
               <dd>
                 <dl>
@@ -274,7 +284,9 @@ function openDialog() {
                   <dd><a href="https://www.curseforge.com/minecraft/mc-mods/plasmo-voice">https://www.curseforge.com/minecraft/mc-mods/plasmo-voice</a></dd>
                 </dl>
               </dd>
+</div>
 
+            <div class="modContainer">
               <dt>Xaero's Minimap</dt>
               <dd>
                 <dl>
@@ -288,21 +300,134 @@ function openDialog() {
                   <dd><a href="https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap">https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap</a></dd>
                 </dl>
               </dd>
+</div>
 
-
+            <div class="modContainer">
               <dt>Just Enough Items</dt>
               <dd>
                 <dl>
                   <dt>Descripcion:</dt>
-                  <dd>Podes ver recipientes avanzados que no te muestra en Vanilla Minecraft</dd>
 
+                  <dd>Podes ver recipientes avanzados que no te muestra en Vanilla Minecraft</dd>
                   <dt>Razon de puesto:</dt>
                   <dd>Lo vas a necesitar para saber como craftear cosas de mods como el Mod Create o el mod de decoracion</dd>
 
                   <dt>Link:</dt>
-                  <dd><a href="https://www.curseforge.com/minecraft/mc-mods/jei">https://www.curseforge.com/minecraft/mc-mods/jei</a>
+                  <dd><a href="https://www.curseforge.com/minecraft/mc-mods/jei">https://www.curseforge.com/minecraft/mc-mods/jei</a></dd>
                 </dl>
               </dd>
+</div>
+
+            <div class="modContainer">
+              <dt>Inventory Profiles Next <span>y sus dependencias</span></dt>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>Podes ordernar el inventario automaticamente</dd>
+
+                  <dt>Razon de puesto:</dt>
+                  <dd>Es util porque te puede ahorrar mucho tiempo pero esta en este puesto porque necesitas 3 mods para tener esa funcionalidad</dd>
+
+
+                  <dt>Links:</dt>
+                  <dd>
+                    <a href="https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next">https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next</a>
+                    <a href="https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge">https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge</a>
+                    <a href="https://www.curseforge.com/minecraft/mc-mods/libipn">https://www.curseforge.com/minecraft/mc-mods/libipn</a>
+                  </dd>
+
+                </dl>
+              </dd></div>
+
+<div class="modContainer">
+              <dt>What the hell is that <span>y su dependencia</span></dt>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>poder ver items que esta en frente tullo</dd>
+
+                  <dt>Razon de puesto:</dt>
+                  <dd>es util para saber cual es el item que esta en frente tuyo. Incluso puedes asignar una tecla para que te aparezca como craftearlo si tenes 'Just Enough Items'</dd>
+
+                  <dt>Link:</dt>
+                  <dd>
+                    <a href="https://www.curseforge.com/minecraft/mc-mods/wthit-forge">https://www.curseforge.com/minecraft/mc-mods/wthit-forge</a>
+                    <a href="https://www.curseforge.com/minecraft/mc-mods/badpackets">https://www.curseforge.com/minecraft/mc-mods/badpackets</a>
+                  </dd>
+                </dl>
+              </dd>
+</div>
+
+            <div class="modContainer">
+              <dt>AppleSkin</dt>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>Mod que te brinda informacion extra de la hambre</dd>
+
+                  <dt>Razon de puesto:</dt>
+                  <dd>Te puede servir un poco y se ve un poco cool ver como te va bajando la hambre con mas detalles, y es un mod muy liviano pero no es algo wow</dd>
+
+                  <dt>Link:</dt>
+                  <dd><a href="https://www.curseforge.com/minecraft/mc-mods/appleskin">https://www.curseforge.com/minecraft/mc-mods/appleskin</a></dd>
+                </dl>
+              </dd>
+      </div>
+
+            <div class="modContainer">
+              <dt>GUI Clock</dt>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>muestra la hora de Minecraft</dd>
+
+                  <dt>Razon de puesto:</dt>
+                  <dd>creo que es mas util que AppleSkin porque si estas en una cueva, podes ver si es de dia o de noche</dd>
+
+                  <dt>Link:</dt>
+                  <dd>
+                    <a href="https://www.curseforge.com/minecraft/mc-mods/gui-clock">https://www.curseforge.com/minecraft/mc-mods/gui-clock</a>
+                    <a href="https://www.curseforge.com/minecraft/mc-mods/collective">https://www.curseforge.com/minecraft/mc-mods/collective</a>
+                  </dd>
+                </dl>
+              </dd>
+      </div>
+
+            <div class="modContainer">
+              <dt>Better Third Person</dt>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>hace posible que puedas jugar en 3ra persona</dd>
+
+                  <dt>Razon de puesto:</dt>
+                  <dd>bastante inutil si jugas en primera persona</dd>
+
+                  <dt>Link:</dt>
+                  <dd>
+                    <a href="https://www.curseforge.com/minecraft/mc-mods/better-third-person">https://www.curseforge.com/minecraft/mc-mods/better-third-person</a>
+                  </dd>
+                </dl>
+              </dd>
+      </div>
+
+            <div class="modContainer">
+              <dt>Tiny Item Animations</dt>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>agrega una animacion pequenia</dd>
+
+                  <dt>Razon de puesto:</dt>
+                  <dd>no agrega casi nada al gameplay asi que esta al ultimo puesto</dd>
+
+                  <dt>Link:</dt>
+                  <dd>
+                    <a href="https://www.curseforge.com/minecraft/mc-mods/tiny-item-animations">https://www.curseforge.com/minecraft/mc-mods/tiny-item-animations</a>
+                  </dd>
+                </dl>
+              </dd>
+</div>
 
             </dl>
           </section>
