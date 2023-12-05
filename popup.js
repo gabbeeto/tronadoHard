@@ -46,8 +46,8 @@ function openDialog() {
             <section>
               <button><a target="_blank" href="https://www.mediafire.com/file/cxdtxoqdmc6taq6/windows.zip/file">windows</a></button>
               <button><a target="_blank" href="https://www.mediafire.com/file/rm0fp8n53xfdsdp/linux.zip/file">linux</a></button>
-            </section>
           </details>
+          </section>
           <details>
             <summary>
               Google Drive
@@ -65,43 +65,174 @@ function openDialog() {
           <section>
             <h2>todos los mods requeridos son mods que si o si necesitas para entrar al server</h2>
             <dl>
+
+
               <dt>MrCrayfish's Furniture Mod</dt>
-              <dd>Descripcion: Mod de decoracion<br>version:7.0.0-pre36<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod">https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod</a>  </dd>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>Mod de decoracion</dd>
+
+                  <dt>version:</dt>
+                  <dd>7.0.0-pre36</dd>
+
+                  <dt>Link:</dt>
+                  <dd><a href="https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod">https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod</a></dd>
+                </dl>
+              </dd>
+
 
               <dt>Create Mod</dt>
-              <dd>Descripcion: Mod de fabricas y automatizacion<br>version:0.5.1.f<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/create">https://www.curseforge.com/minecraft/mc-mods/create</a>  </dd>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>Mod de fabricas y automatizacion</dd>
+
+                  <dt>version:</dt>
+                  <dd>0.5.1.f</dd>
+
+                  <dt>Link:</dt>
+                  <dd><a href="https://www.curseforge.com/minecraft/mc-mods/create">https://www.curseforge.com/minecraft/mc-mods/create</a></dd>
+                </dl>
+              </dd>
 
               <dt>End Remastered</dt>
-              <dd>Descripcion: Mods que aumenta la dificultad para ir al end<br>version:R-1.20.X<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/endremastered">https://www.curseforge.com/minecraft/mc-mods/endremastered</a>  </dd>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>Mods que aumenta la dificultad para ir al end</dd>
+
+                  <dt>version:</dt>
+                  <dd>R-1.20.X</dd>
+
+                  <dt>Link:</dt>
+                  <dd><a href="https://www.curseforge.com/minecraft/mc-mods/endremastered">https://www.curseforge.com/minecraft/mc-mods/endremastered</a></dd>
+                </dl>
+              </dd>
 
               <dt>Farmer's Delight</dt>
-              <dd>Descripcion: Mod que expande la agricultura<br>version:1.2.3<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight/">https://www.curseforge.com/minecraft/mc-mods/farmers-delight/</a>  </dd>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>Mod que expande la agricultura</dd>
+
+                  <dt>version:</dt>
+                  <dd>1.2.3</dd>
+
+                  <dt>Link:</dt>
+                  <dd><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight/">https://www.curseforge.com/minecraft/mc-mods/farmers-delight/</a></dd>
+                </dl>
+              </dd>
 
               <dt>Lootr</dt>
-              <dd>Descripcion: Mod que cambia mecanicas del loot<br>version:0.7.30.73<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/lootr/">https://www.curseforge.com/minecraft/mc-mods/lootr/</a>  </dd>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>Mod que cambia mecanicas del loot</dd>
+
+                  <dt>version:</dt>
+                  <dd>0.7.30.73</dd>
+
+                  <dt>Link:</dt>
+                  <dd><a href="https://www.curseforge.com/minecraft/mc-mods/lootr/">https://www.curseforge.com/minecraft/mc-mods/lootr/</a></dd>
+                </dl>
+              </dd>
+
+
 
               <dt>Sophisticated Backpacks</dt>
-              <dd>Descripcion: Mod de mochila<br>version:3.19.1.962<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks">https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks</a>  </dd>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>Mod de mochila</dd>
+
+                  <dt>version:</dt>
+                  <dd>3.19.1.962</dd>
+
+                  <dt>Link:</dt>
+                  <dd><a href="https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks">https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks</a></dd>
+                </dl>
+              </dd>
+
 
 
               <dt>Sophisticated Core</dt>
-              <dd>Descripcion: dependencia para 'Sophisticated Backpacks'<br>version:0.5.108.504<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/">https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/</a>  </dd>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>dependencia para 'Sophisticated Backpacks'</dd>
+
+                  <dt>version:</dt>
+                  <dd>0.5.108.504</dd>
+
+                  <dt>Link:</dt>
+                  <dd><a href="https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/">https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/</a></dd>
+                </dl>
+              </dd>
+
 
 
               <dt>Waystones</dt>
-              <dd>Descripcion: Mod para tener una piedra del camino que nos deja telestransportarnos<br>version:4.0.2<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/waystones/">https://www.curseforge.com/minecraft/mc-mods/waystones/</a>  </dd>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>Mod para tener una piedra del camino que nos deja telestransportarnos</dd>
+
+                  <dt>version:</dt>
+                  <dd>4.0.2</dd>
+
+                  <dt>Link:</dt>
+                  <dd><a href="https://www.curseforge.com/minecraft/mc-mods/waystones/">https://www.curseforge.com/minecraft/mc-mods/waystones/</a></dd>
+                </dl>
+              </dd>
 
 
               <dt>Balm</dt>
-              <dd>Descripcion: Dependencia para 'Waystones'<br>version:7.1.4<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/balm">https://www.curseforge.com/minecraft/mc-mods/balm</a>  </dd>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>Dependencia para 'Waystones'</dd>
+
+                  <dt>version:</dt>
+                  <dd>7.1.4</dd>
+
+                  <dt>Link:</dt>
+                  <dd><a href="https://www.curseforge.com/minecraft/mc-mods/balm">https://www.curseforge.com/minecraft/mc-mods/balm</a></dd>
+                </dl>
+              </dd>
 
 
               <dt>Music Maker Mod</dt>
-              <dd>Descripcion: Mod para hacer musica<br>version:1.0.0<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/music-maker-mod">https://www.curseforge.com/minecraft/mc-mods/music-maker-mod</a>  </dd>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>Mod para hacer musica</dd>
+
+                  <dt>version:</dt>
+                  <dd>1.0.0</dd>
+
+                  <dt>Link:</dt>
+                  <dd><a href="https://www.curseforge.com/minecraft/mc-mods/music-maker-mod">https://www.curseforge.com/minecraft/mc-mods/music-maker-mod</a></dd>
+                </dl>
+              </dd>
 
 
               <dt>Joy of Painting</dt>
-              <dd>Descripcion: Mod para artistas que quieren dibujar<br>version:1.0.0<br>Link:<a href="https://www.curseforge.com/minecraft/mc-mods/joy-of-painting">https://www.curseforge.com/minecraft/mc-mods/joy-of-painting</a>  </dd>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>Mod para artistas que quieren dibujar</dd>
+
+                  <dt>version:</dt>
+                  <dd>1.0.0</dd>
+
+                  <dt>Link:</dt>
+                  <dd><a href="https://www.curseforge.com/minecraft/mc-mods/joy-of-painting">https://www.curseforge.com/minecraft/mc-mods/joy-of-painting</a></dd>
+                </dl>
+              </dd>
+
+
+
             </dl>
           </section>
         </details>
@@ -110,7 +241,69 @@ function openDialog() {
           <section>
             <h2>todos los mods que son opcionales. Estaran ordenados en base a 'importancia de mod'/'consumo de pc' con la opinion de Gabbeeto</h2>
             <dl>
-              <dt>Optifine</dt>
+              <dt>Optifine(esta en la carpeta de mod requeridos)</dt>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>Mod para modificar graficos</dd>
+
+                  <dt>Razon de puesto:</dt>
+                  <dd>No importa si tenes buena o mala pc, te vas a beneficiar de esto</dd>
+
+                  <dt>Version(si logras hacerlo funcionar con todos los mods, esto no es importante.. Esta es mi recomendacion)</dt>
+                  <dd>HD U I6 pre6(para Forge 47.1.43)</dd>
+
+                  <dt>Link:</dt>
+                  <dd><a href="https://optifine.net/downloads">https://optifine.net/downloads</a></dd>
+                </dl>
+              </dd>
+
+              <dt>Plasmo Voice</dt>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>Hablar con las demas personas y escuchar a las demas personas</dd>
+
+                  <dt>Razon de puesto:</dt>
+                  <dd>No podras escuchar los que usan microfono en el server</dd>
+
+                  <dt>Version(si logras hacerlo funcionar bien con otra version, esto no es importante.. Esta es mi recomendacion):</dt>
+                  <dd>2.0.7</dd>
+
+                  <dt>Link:</dt>
+                  <dd><a href="https://www.curseforge.com/minecraft/mc-mods/plasmo-voice">https://www.curseforge.com/minecraft/mc-mods/plasmo-voice</a></dd>
+                </dl>
+              </dd>
+
+              <dt>Xaero's Minimap</dt>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>ver el mapa y lo que aparece cerca del mapa y guardar ubicacion</dd>
+
+                  <dt>Razon de puesto:</dt>
+                  <dd>Te puede ayudar a ver en el mapa si hay mobs cerca tullo o te puede ayudar guardando cordenadas si no tienes buena memoria</dd>
+
+                  <dt>Link:</dt>
+                  <dd><a href="https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap">https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap</a></dd>
+                </dl>
+              </dd>
+
+
+              <dt>Just Enough Items</dt>
+              <dd>
+                <dl>
+                  <dt>Descripcion:</dt>
+                  <dd>Podes ver recipientes avanzados que no te muestra en Vanilla Minecraft</dd>
+
+                  <dt>Razon de puesto:</dt>
+                  <dd>Lo vas a necesitar para saber como craftear cosas de mods como el Mod Create o el mod de decoracion</dd>
+
+                  <dt>Link:</dt>
+                  <dd><a href="https://www.curseforge.com/minecraft/mc-mods/jei">https://www.curseforge.com/minecraft/mc-mods/jei</a>
+                </dl>
+              </dd>
+
             </dl>
           </section>
         </details>
