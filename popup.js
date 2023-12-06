@@ -246,8 +246,9 @@ function openDialog() {
           <summary>mods opcionales</summary>
           <section>
             <h2>todos los mods que son opcionales. Estaran ordenados en base a 'importancia de mod'/'consumo de pc' con la opinion de Gabbeeto</h2>
-            <div class="modContainer">
             <dl>
+
+            <div class="modContainer">
               <dt>Optifine(esta en la carpeta de mod requeridos)</dt>
               <dd>
                 <dl>
@@ -265,7 +266,6 @@ function openDialog() {
                 </dl>
               </dd>
 </div>
-
 
 <div class="modContainer">
               <dt>Plasmo Voice</dt>
