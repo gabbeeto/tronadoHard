@@ -18,6 +18,11 @@ for (let button of buttons) {
   button.addEventListener('click', openDialog)
 }
 
+function quit(){
+let dialog = document.querySelector('dialog');
+dialog.close();
+}
+
 let srcForJavaInstalation = `./images/basicInstalation`
 let javaInstalation = `
         <details>
@@ -49,6 +54,7 @@ function openDialog() {
     case "0":
       dialog.innerHTML = `
       <div>
+      <button id="quit">salir</button>
         <button><a href="zipFiles/windows.zip" download="TronadoHard Para Windows.zip">descargar Instaladores para window</a></button>
         <button><a href="zipFiles/linux.zip" download="TronadoHard Para Linux.zip">descargar Instaladores para linux</a></button>
         <h2>links externos por Gabbeeto:</h2>
@@ -452,6 +458,7 @@ function openDialog() {
     case '1':
       dialog.innerHTML = `
       <div>
+      <button id="quit">salir</button>
       <p>hacele click a las imagenes si quieres verlos en pantalla completa</p>
       <p class="linux">si eres usuario de windows, ignora las letras azules o las imagenes con bordes azules. Son para usuarios de linux</p>
       <p>este tutorial se resume en:</p>
@@ -513,6 +520,7 @@ function openDialog() {
     case '2':
       dialog.innerHTML = `
       <div>
+      <button id="quit">salir</button>
         <p>despues de extraer el archivo, tendras que abrir la carpeta del bajador de graficos 3000</p>
       ${anchorAndImgTag(src2, 'd01', 'abrir la carpeta del bajador de graficos')}
         <p>despues tenes que abrir el ejecutable que dice "Bajador de graficos.exe"(tienes el archivo de python)</p>
@@ -529,6 +537,8 @@ function openDialog() {
       break;
     case '3':
       dialog.innerHTML = `
+<div>
+      <button id="quit">salir</button>
 <h2>videos that seems good enough en mi opinion <br> (avisame en discord si conoces un video que te ayudo a hacer Minecraft lijero mucho mejor para agregarlo)</h2>
 <a href="https://www.youtube.com/watch?v=yTDSjfrmcaE">debloater video</a>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yTDSjfrmcaE?si=c9wP4NmzrH9ixUON" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -536,10 +546,13 @@ function openDialog() {
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ywCOs4XyNgg?si=hX_t_ISms8Ba5pTD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <a href="https://www.youtube.com/watch?v=-PJTiW_Kajo">"hacer minecraft mas lijero" video parte 2</a>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-PJTiW_Kajo?si=a5ut2GNfO7MR2foK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 `
   }
   if (this.dataset.id) {
     dialog.showModal()
+    let quitButton = document.querySelector('#quit');
+    quitButton.addEventListener('click', quit);
   }
 }
 

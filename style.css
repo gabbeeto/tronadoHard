@@ -1,5 +1,4 @@
 /* 320x480 */
-
 *{
 padding: 0;
 margin: 0;
@@ -107,13 +106,13 @@ color: var(--darkPink);
 dialog{
 background-color: var(--yellow);
 color: var(--darkPink);
-position:fixed;
 top:50%;
 left:50%;
 transform: translate(-50%,-50%);
 padding: 10px;
 border-radius: 20px;
 box-shadow: 10px 10px 10px var(--darkPink);
+z-index: 9999;
 }
 
 dialog > div{
@@ -189,13 +188,14 @@ dd > dl > dd{
 font-size: min(1.1vw,1.5rem);
 font-size: clamp(0.8rem,1.1vw,1.5rem);
 }
+
 dialog p{
-
 font-size: clamp(0.7rem,1.0vw,1.2rem);
-
 }
 
 dialog h2{
 /* font-size: min(2.3vw,2.2rem); */
 font-size: clamp(1rem,2.3vw,2.2rem);
 }
+
+
