@@ -148,7 +148,7 @@ flex-direction:column;
 }
 
 section > dl{
-gap: 20px;
+gap: clamp(5px,2vw,26px);
 }
 
 .modContainer{
@@ -159,7 +159,8 @@ border-radius:10px;
 .modContainer > dt{
 color: var(--darkBlue);
 padding-top: 10px;
-font-size: min(2.3vw,2.2rem);
+/* font-size: min(2.3vw,2.2rem); */
+font-size: clamp(1rem,2.3vw,2.2rem);
 }
 
 dd a:first-of-type{
@@ -179,14 +180,22 @@ display: block;
 
 dd > dl > dt{
 color: var(--red);
-font-size: min(1.8vw,2.1rem);
+/* font-size: clamp(1.8vw,2.1rem); */
+font-size: clamp(0.9rem,1.8vw,2.1rem);
 }
 
 
 dd > dl > dd{
 font-size: min(1.1vw,1.5rem);
+font-size: clamp(0.8rem,1.1vw,1.5rem);
+}
+dialog p{
+
+font-size: clamp(0.7rem,1.0vw,1.2rem);
+
 }
 
 dialog h2{
-font-size: min(2.3vw,2.2rem);
+/* font-size: min(2.3vw,2.2rem); */
+font-size: clamp(1rem,2.3vw,2.2rem);
 }
