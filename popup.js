@@ -47,8 +47,6 @@ function openDialog() {
   console.log(this)
   let src = `./images/basicInstalation`;
   let src2 = `./images/basicGraphicDowngrader`
-  let src3 = `./images/advanceInstalation`;
-  let src4 = `./images/downgradeGraphicManually`;
 
   switch (this.dataset.id) {
     case "0":
@@ -117,7 +115,7 @@ function openDialog() {
                 </dl>
               </dd>
                 </div>
-<div class="modContainer">
+            <div class="modContainer">
               <dt>End Remastered</dt>
               <dd>
                 <dl>
@@ -161,9 +159,9 @@ function openDialog() {
                   <dd><a href="https://www.curseforge.com/minecraft/mc-mods/lootr/">https://www.curseforge.com/minecraft/mc-mods/lootr/</a></dd>
                 </dl>
               </dd>
-</div>
+          </div>
 
-<div class="modContainer">
+    <div class="modContainer">
               <dt>Sophisticated Backpacks</dt>
               <dd>
                 <dl>
@@ -177,7 +175,7 @@ function openDialog() {
                   <dd><a href="https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks">https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks</a></dd>
                 </dl>
               </dd>
-</div>
+      </div>
 
 <div class="modContainer">
               <dt>Sophisticated Core</dt>
@@ -467,7 +465,7 @@ function openDialog() {
           <li>instalar los mods con el instalador para los mods(leyendo lo que dice el instalador)</li>
           <li>elijiendo la version correcta de minecraft a la hora de entrar a tronadoHard(forge version "tronadoHard")</li>
         </ol>
-      <p>y ya... Pero eso no seria util para mucha gente asi que este un tutorial detallado de la forma simple de instalar mods</p>
+      <p>y ya... Pero eso no seria util para mucha gente asi que este un tutorial detallado de la forma simple de instalar mods<span>(tambien se puede instalar en la manera tradicional. Solo tienes que instalar forge y copiar los mods de la carpeta de "mods requeridos" a la carpeta de mods de minecraft si solo quieres entrar al server o/y lo mismo con los mods que estan dentro de la carpeta de "mods opcionales" si quieres que tu experiencia sea mejor, recomiendo que leas en la informacion de mods opcionales que esta dentro de la pagina cuando haces click en "Descargar mods e instaladores" si vas a instalarlo de esta manera)</span></p>
       ${anchorAndImgTag(src, '00', 'welcome image')}
       <p>despues de bajar el instalador tienes que extraerlos(probablemente el archivo zip tenga otro nombre)</p>
       ${anchorAndImgTag(src, '01', 'muestra de archivo')}
@@ -509,8 +507,8 @@ function openDialog() {
       ${anchorAndImgTag(src, '18', 'opciones para mods opcionales(mis preferencias)')}
         <p>la primera opcion solo existe para la gente que tiene pc mala pero no tan mala. Para gente que le corre minecraft con varios mods pero que no les funciona el gta 5 apropiadamente(6-7 gb de ram de ddr3 mas o menos)</p>
       ${anchorAndImgTag(src, '20', 'opciones para mods opcionales(existencia de la opcion 1)')}
-        <p>en mi caso, yo eleji la opcion 3 asi que precione el numero 3 y despues precione el enter(esa pc tenia 4 gb de ram pero un procesador decente)</p>
       ${anchorAndImgTag(src, '19', 'opciones para mods opcionales(mis preferencias)')}
+        <p>en mi caso, yo eleji la opcion 3 asi que precione el numero 3 y despues precione el enter(esa pc tenia 4 gb de ram pero un procesador decente)</p>
         <p>lean lo siguiente(te dice que preciones enter y esperes 2 segundos y que no cierres la ventana porque la ventana se cerrara solo. Si haces eso, la instalacion estara completa!)</p>
       ${anchorAndImgTag(src, '21', 'y tronadoHard ya estaria instalado en tu computadora despues de hacer esto correctamente... ')}
         <p>y creeria que esto es suficiente para poder jugar tronadoHard en tu pc, simplemente no olvides jugar la version "tronadoHard" en tu launcher. Y si tu launcher no acepta instalaciones cuztomizadas, te recomendaria jugar la version 47.1.43 de forge(es lo mismo, simplemente llame una version TronadoHard para hacer la vida mas facil a algunos)</p>
@@ -531,7 +529,20 @@ function openDialog() {
       ${anchorAndImgTag(src2, 'd04', 'abrir el bajador de graficos')}
         <p>una vez que aparezca este mensaje... Lo unico que tienes que hacer es precionar el enter y despues esperar 2 segundos(sin cerrar la ventana manualmente porque el programa lo hara solo cuando el intalador termine exitosamente. Porfavor no cierres la ventana)</p>
       ${anchorAndImgTag(src2, 'd05', 'abrir el bajador de graficos')}
-        <p>Y esto seria todo, podrias tal vez bajarle la resolucion al Minecraft si aun tienes fps bajo(tengo buenas razones para no incluir esto en el bajador de graficos). Y si usas windows y el Minecraft aun te anda lento, recomiendo chequear los videos que estan dentro de "Links para hacer 'Windows' mas liviano' y ver si el juego te puede correr mejor"</p>
+        <p>si aun anda lento, te recomendaria bajarle la resolucion, para eso abri el juego y anda a "options" o "opciones"</p>
+      ${anchorAndImgTag(src2, 'e1', 'abriendo opciones')}
+      ${anchorAndImgTag(src2, 's1', 'abriendo opciones')}
+        <p>despues ve a "video settings" o "graficos"</p>
+      ${anchorAndImgTag(src2, 'e2', 'llendo a graficos')}
+      ${anchorAndImgTag(src2, 's2', 'llendo a graficos')}
+        <p>despues ve a "Others" o "opciones varias"</p>
+      ${anchorAndImgTag(src2, 'e3', 'llendo a graficos')}
+      ${anchorAndImgTag(src2, 's3', 'llendo a graficos')}
+        <p>y despues le cambias la resolucion por una inferior a la que tengas en windows(podes ponerle la mitad o menos). La razon por la cual no inclui esto en el bajador de graficos es porque tu monitor puede tener problemas con ciertas resoluciones</p>
+      ${anchorAndImgTag(src2, 'e4', 'cambiando resolucion')}
+      ${anchorAndImgTag(src2, 's4', 'cambiando resolucion')}
+        <p>Y esto seria todo.  si usas windows y el Minecraft aun te anda lento, recomiendo chequear los videos que estan dentro de "Links para hacer 'Windows' mas liviano' y ver si el juego te puede correr mejor"</p>
+      ${anchorAndImgTag(src2, 'final', 'otros links')}
       </div>
           `;
       break;
