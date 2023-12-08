@@ -201,7 +201,6 @@ font-size: clamp(1rem,2.3vw,2.2rem);
 
 button{
 cursor: pointer;
-
 }
 dialog p > span{
 color: var(--darkGreen);
