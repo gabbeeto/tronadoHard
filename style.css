@@ -19,6 +19,7 @@ src: url('./fonts/Minecraft.ttf');
 --red:#842D78;
 --yellow: #E5A836;
 --green: #36E5B7;
+--darkGreen: #114A3B;
 --darkPink: #B2336C;
 --blue: #297EA1;
 --darkBlue: #174DB1;
@@ -198,4 +199,10 @@ dialog h2{
 font-size: clamp(1rem,2.3vw,2.2rem);
 }
 
+button{
+cursor: pointer;
 
+}
+dialog p > span{
+color: var(--darkGreen);
+}
