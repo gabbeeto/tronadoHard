@@ -346,6 +346,9 @@ function openDialog() {
                   <dt>Razon de puesto:</dt>
                   <dd>Es util porque te puede ahorrar mucho tiempo pero esta en este puesto porque necesitas 3 mods para tener esa funcionalidad</dd>
 
+                  <dt>dependencia:</dt>
+                  <dd>Kotlin for Forge</dd>
+                  <dd>libIPN</dd>
 
                   <dt>Links:</dt>
                   <dd>
@@ -363,6 +366,9 @@ function openDialog() {
                 <dl>
                   <dt>Descripcion:</dt>
                   <dd>poder ver items que esta en frente tullo</dd>
+
+                  <dt>dependencia:</dt>
+                  <dd>Bad Packets</dd>
 
                   <dt>Razon de puesto:</dt>
                   <dd>es util para saber cual es el item que esta en frente tuyo. Incluso puedes asignar una tecla para que te aparezca como craftearlo si tenes 'Just Enough Items'</dd>
@@ -398,6 +404,9 @@ function openDialog() {
                 <dl>
                   <dt>Descripcion:</dt>
                   <dd>muestra la hora de Minecraft</dd>
+
+                  <dt>Dependencia:</dt>
+                  <dd>Collective</dd>
 
                   <dt>Razon de puesto:</dt>
                   <dd>creo que es mas util que AppleSkin porque si estas en una cueva, podes ver si es de dia o de noche</dd>
