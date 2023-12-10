@@ -568,6 +568,12 @@ function openDialog() {
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-PJTiW_Kajo?si=a5ut2GNfO7MR2foK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 `
+    case '4':
+    dialog.innerHTML = `
+<div>
+      <button id="quit">salir</button>
+  <h2>esto es para personas que no les funciona el bajador de graficos o que simplemente quieren hacer lo mismo que hace el bajador de graficos sin tener que usar el bajador de graficos</h2>
+</div>`
   }
   if (this.dataset.id) {
     dialog.showModal()
