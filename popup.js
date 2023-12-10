@@ -77,7 +77,7 @@ function openDialog() {
           </details>
         </ul>
 
-        <h2>Informacion de mods y links de curseforge:</h2>
+        <h2>Informacion de mods y links de curseforge: <span>recomendado leer la seccion de mods opcionales para gente que no usa instalador para saber que hace cada mod opcional</span>  </h2>
         <details>
           <summary>mods necesarios para entrar al server</summary>
           <section>
