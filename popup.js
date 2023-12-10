@@ -47,6 +47,7 @@ function openDialog() {
   console.log(this)
   let src = `./images/basicInstalation`;
   let src2 = `./images/basicGraphicDowngrader`
+  let src3 = `./images/downgradeGraphicManually`
 
   switch (this.dataset.id) {
     case "0":
@@ -569,10 +570,50 @@ function openDialog() {
 </div>
 `
     case '4':
+
     dialog.innerHTML = `
 <div>
       <button id="quit">salir</button>
   <h2>esto es para personas que no les funciona el bajador de graficos o que simplemente quieren hacer lo mismo que hace el bajador de graficos sin tener que usar el bajador de graficos</h2>
+        <p>Lo primero que tienen que hacer es ir a "options" u "opciones"</p>
+      ${anchorAndImgTag(src2, 'e1', 'ir a options')}
+      ${anchorAndImgTag(src2, 's1', 'ir a opciones')}
+        <p>despues tienen que ir a "videos settings" o "graficos"</p>
+      ${anchorAndImgTag(src3, 'e02', 'ir a video settings')}
+      ${anchorAndImgTag(src3, 's02', 'ir a graficos')}
+        <p>cambia estos valores y dejalos como los deje yo</p>
+      ${anchorAndImgTag(src3, 'e03', 'cambiar valores en video settings')}
+      ${anchorAndImgTag(src3, 's03', 'cambiar valores en graficos')}
+        <p>luego ve a "detalles" o "details"</p>
+      ${anchorAndImgTag(src3, 'eDetail', 'ir a Detail')}
+      ${anchorAndImgTag(src3, 'sDetail', 'ir a Detalles')}
+        <p>luego deja las siguientes configuraciones como yo las deje</p>
+      ${anchorAndImgTag(src3, 'e04', 'cambiar valores en Details')}
+      ${anchorAndImgTag(src3, 's04', 'cambiar valores en Detalles')}
+        <p>despues vuelve atras y luego ve a "animations" o "animaciones"</p>
+      ${anchorAndImgTag(src3, 'eAnimations', 'ir a Animations')}
+      ${anchorAndImgTag(src3, 'sAnimations', 'ir a Animaciones')}
+        <p>y luego cambia esas configuraciones y dejalas como yo las deje</p>
+      ${anchorAndImgTag(src3, 'e05', 'cambiar valores en Animations')}
+      ${anchorAndImgTag(src3, 's05', 'cambiar valores en Animaciones')}
+        <p>y luego vuelve atras y ve a "calidad" o "Quality"</p>
+      ${anchorAndImgTag(src3, 'eQuality', 'ir a Quality..')}
+      ${anchorAndImgTag(src3, 'sQuality', 'ir a Calidad..')}
+        <p>y luego cambia esas configuraciones y dejalas como yo las deje</p>
+      ${anchorAndImgTag(src3, 'e06', 'cambiar valores en Animations')}
+      ${anchorAndImgTag(src3, 's06', 'cambiar valores en Animaciones')}
+        <p>y luego vuelve atras y ve a "Performance" o "Rendimiento"</p>
+      ${anchorAndImgTag(src3, 'ePerformance', 'ir a Performance..')}
+      ${anchorAndImgTag(src3, 'sPerformance', 'ir a Rendimiento..')}
+        <p>y luego cambia esas configuraciones y dejalas como yo las deje</p>
+      ${anchorAndImgTag(src3, 'e07', 'cambiar valores en Performance')}
+      ${anchorAndImgTag(src3, 's07', 'cambiar valores en Rendimiento')}
+        <p>y luego vuelve atras y ve a "Others" o "Opciones varias"</p>
+      ${anchorAndImgTag(src3, 'eOthers', 'ir a Others..')}
+      ${anchorAndImgTag(src3, 'sOthers', 'ir a Opciones varias..')}
+        <p>y luego cambia esas configuraciones y dejalas como yo las deje</p>
+      ${anchorAndImgTag(src3, 'e08', 'cambiar valores en Performance')}
+      ${anchorAndImgTag(src3, 's08', 'cambiar valores en Rendimiento')}
 </div>`
   }
   if (this.dataset.id) {
