@@ -615,6 +615,28 @@ function openDialog() {
       ${anchorAndImgTag(src3, 'e08', 'cambiar valores en Performance')}
       ${anchorAndImgTag(src3, 's08', 'cambiar valores en Rendimiento')}
 </div>`
+
+
+    case '5':
+
+    dialog.innerHTML = `
+<div>
+      <button id="quit">salir</button>
+  <dl>
+    <dt class="titleForInformation">Version de minecraft:</dt>
+    <dd>1.20.1</dd>
+
+    <dt class="titleForInformation">Version de forge:</dt>
+    <dd>47.1.43(recomendado para usar OptiFine HD U I6 pre6 para minecraft 1.20.1 pero puedes usar cualquiera que sea arriba de 47.1.0. Versiones inferiores tendran problemas de compatiblidad con algunos mods requeridos)</dd>
+
+    <dt class="titleForInformation">es necesario usar el instalador?</dt>
+    <dd>Si sabes instalar mods de minecraft, no es necesario usar instalador. En los links donde descargas el instalador, vienen con los mods separados en sus respectivas carpetas. Lo unico que hace el instalador es copiar esos mods que estan dentro de la carpeta de "mods reomendados" a la carpeta de mods que esta dentro de la carpeta de Minecraft(tambien copia mods de la carpeta de "mod opcionales" pero eso depende de la respuesta que le das)</dd>
+
+    
+    <dt class="titleForInformation">No quiero usar tus links. Como bajo los mods?</dt>
+    <dd>cuando haces click en "Descargar mods e instaladores" tenes informacion de los nombre de los mods. Si son necesario o no para entrar al server y la version para que puedas ver que version del mod es compatible con el servidor. Tienes que bajar todos los mods necesarios para entrar al server y puedes elejir cual mod opcional agregar o no</dd>
+  </dl>
+</div>`
   }
   if (this.dataset.id) {
     dialog.showModal()

@@ -211,3 +211,7 @@ color: var(--darkGreen);
 dialog h2 > span{
 color: var(--blue);
 }
+
+.titleForInformation{
+color: var(--blue);
+}
