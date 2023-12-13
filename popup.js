@@ -569,6 +569,7 @@ function openDialog() {
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-PJTiW_Kajo?si=a5ut2GNfO7MR2foK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 `
+        break;
     case '4':
 
     dialog.innerHTML = `
@@ -617,6 +618,8 @@ function openDialog() {
 </div>`
 
 
+      break;
+
     case '5':
 
     dialog.innerHTML = `
@@ -637,6 +640,7 @@ function openDialog() {
     <dd>cuando haces click en "Descargar mods e instaladores" tenes informacion de los nombre de los mods. Si son necesario o no para entrar al server y la version para que puedas ver que version del mod es compatible con el servidor. Tienes que bajar todos los mods necesarios para entrar al server y puedes elejir cual mod opcional agregar o no</dd>
   </dl>
 </div>`
+      break;
   }
   if (this.dataset.id) {
     dialog.showModal()
