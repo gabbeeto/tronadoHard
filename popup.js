@@ -6,10 +6,10 @@ inlineButton.addEventListener('click', (event) => {
   event.target.style.color = "var(--yellow)";
   event.target.style.backgroundColor = "black";
   setTimeout(() => {
-  ip.style.color = "";
-  event.target.style.color = "";
-  event.target.style.backgroundColor = "";
-  },300);
+    ip.style.color = "";
+    event.target.style.color = "";
+    event.target.style.backgroundColor = "";
+  }, 300);
 }
 )
 let dialog = document.querySelector('dialog');
@@ -18,9 +18,9 @@ for (let button of buttons) {
   button.addEventListener('click', openDialog)
 }
 
-function quit(){
-let dialog = document.querySelector('dialog');
-dialog.close();
+function quit() {
+  let dialog = document.querySelector('dialog');
+  dialog.close();
 }
 
 let srcForJavaInstalation = `./images/basicInstalation`
@@ -569,10 +569,10 @@ function openDialog() {
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-PJTiW_Kajo?si=a5ut2GNfO7MR2foK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 `
-        break;
+      break;
     case '4':
 
-    dialog.innerHTML = `
+      dialog.innerHTML = `
 <div>
       <button id="quit">salir</button>
   <h2>esto es para personas que no les funciona el bajador de graficos o que simplemente quieren hacer lo mismo que hace el bajador de graficos sin tener que usar el bajador de graficos</h2>
@@ -622,7 +622,7 @@ function openDialog() {
 
     case '5':
 
-    dialog.innerHTML = `
+      dialog.innerHTML = `
 <div>
       <button id="quit">salir</button>
   <dl>
