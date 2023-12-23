@@ -1,17 +1,3 @@
-const inlineButton = document.querySelector("#inlineButton");
-inlineButton.addEventListener('click', (event) => {
-  navigator.clipboard.writeText('TronadoHard.aternos.me:25198');
-  const ip = document.querySelector('main > h2 > span');
-  ip.style.color = "var(--red)";
-  event.target.style.color = "var(--yellow)";
-  event.target.style.backgroundColor = "black";
-  setTimeout(() => {
-    ip.style.color = "";
-    event.target.style.color = "";
-    event.target.style.backgroundColor = "";
-  }, 300);
-}
-)
 let dialog = document.querySelector('dialog');
 const buttons = document.querySelectorAll('button');
 for (let button of buttons) {

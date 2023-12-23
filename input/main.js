@@ -1,7 +1,7 @@
-import React from "react"
-import "react-dom"
-import "./styling/main.css"
-import { createRoot } from "react-dom/client"
+import React from "react";
+import "react-dom";
+import "./styling/main.css";
+import { createRoot } from "react-dom/client";
 import Main from "./MainElement.js";
 import Header from "./HeaderElement.js";
 
