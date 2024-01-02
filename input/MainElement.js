@@ -21,7 +21,7 @@ const introductionH2FromArticle = {
 
 const downloadModAndInstaller = {
   spanish: "Descargar mods e instaladores",
-  english: "Dwonload mods and installers"
+  english: "Download mods and installers"
 }
 
 const linksToMakeWindowLightweight = {
