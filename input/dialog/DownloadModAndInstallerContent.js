@@ -1,9 +1,10 @@
 import React from "react"
 import "react-dom"
 
-let isSpanishLang = window.defaultLang == "spanish";
 
-function txt(spanishText, englishText) {
+export function txt(spanishText, englishText) {
+  let isSpanishLang = window.defaultLang == "spanish";
+
   return isSpanishLang ? spanishText : englishText
 }
 
@@ -88,8 +89,8 @@ export default function() {
 
   return (<>
     <div>
-      <button><a href="./../zipFiles/windows.zip" download="TronadoHard Para Windows.zip">{`${txt("descargar Instaladores y mods para Window", "download installers and mods for Window")}`}</a></button>
-      <button><a href="./../zipFiles/linux.zip" download="TronadoHard Para Linux.zip">{`${txt("descargar Instaladores para linux", "download installers and mods for Linux")}`}</a></button>
+      <button><a href={`${txt("./../zipFiles/windowEspaniol.zip", "./../zipFiles/windowEngrish.zip")}`} download={`${txt("tronadoHardParaWindow.zip", "tronadoHardForWindow.zip")}`}>{`${txt("descargar Instaladores y mods para Window", "download installers and mods for Window")}`}</a></button>
+      <button><a href={`${txt("./../zipFiles/linuxEspaniol.zip", "./../zipFiles/linuxEngrish.zip")}`} download={`${txt("tronadoHardParaLinux.zip", "tronadoHardForLinux.zip")}`}>{`${txt("descargar Instaladores para linux", "download installers and mods for Linux")}`}</a></button>
       <h2>{`${txt("enlaces externos", "external links")}`}:</h2>
       <ul>
         <details>
@@ -97,8 +98,8 @@ export default function() {
             Mediafire
           </summary>
           <section>
-            <button><a target="_blank" href="https://www.mediafire.com/file/cxdtxoqdmc6taq6/windows.zip/file">windows</a></button>
-            <button><a target="_blank" href="https://www.mediafire.com/file/rm0fp8n53xfdsdp/linux.zip/file">linux</a></button>
+            <button><a target="_blank" href={`${txt("https://www.mediafire.com/file/9toyzx4dc1l9t0q/window_espaniol.zip/file", "https://www.mediafire.com/file/j2j2n3nkyxv5ztd/window_engrish.zip/file")}`}>windows</a></button>
+            <button><a target="_blank" href={`${txt("https://www.mediafire.com/file/3s9izuyf2hj6kw7/linux_espaniol.zip/file", "https://www.mediafire.com/file/ea7zmqpyo05j6vq/linux_engrish.zip/file")}`}>linux</a></button>
           </section>
         </details>
         <details>
@@ -106,8 +107,8 @@ export default function() {
             Google Drive
           </summary>
           <section>
-            <button><a target="_blank" href="https://drive.google.com/file/d/19NGye_Zt8lhqHDMHoS_vyfAdhOgInpaG/view?usp=sharing">linux</a></button>
-            <button><a target="_blank" href="https://drive.google.com/file/d/1sfVzSSzC_cXrAJzUZ0jpKncmqjEkYZnZ/view?usp=sharing">windows</a></button>
+            <button><a target="_blank" href={`${txt("https://drive.google.com/file/d/15GkhS42Z_7zoxbH7_rLdMhKei4mRfBey/view?usp=sharing", "https://drive.google.com/file/d/1b7lK81op3wGp-SSUiOuP2nl9R_q_WmfL/view?usp=sharing")}`}>linux</a></button>
+            <button><a target="_blank" href={`${txt("https://drive.google.com/file/d/1p-JM85OROzeZDDWjW9ZTmc0a0gfkVPZe/view?usp=sharing", "https://drive.google.com/file/d/1D3YrS76rT23zFDfSNxsPiJHDmK3cYWQZ/view?usp=sharing")}`}>windows</a></button>
           </section>
         </details>
       </ul>
