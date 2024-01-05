@@ -1,5 +1,9 @@
 import React from "react"
 import "react-dom"
+import linuxEnglish from "./../zipFiles/linuxEngrish.zip"
+import linuxSpanish from "./../zipFiles/linuxEspaniol.zip"
+import windowEnglish from "./../zipFiles/windowEngrish.zip"
+import windowSpanish from "./../zipFiles/windowEspaniol.zip"
 
 
 export function txt(spanishText, englishText) {
@@ -89,8 +93,8 @@ export default function() {
 
   return (<>
     <div>
-      <button><a href={`${txt("./../zipFiles/windowEspaniol.zip", "./../zipFiles/windowEngrish.zip")}`} download={`${txt("tronadoHardParaWindow.zip", "tronadoHardForWindow.zip")}`}>{`${txt("descargar Instaladores y mods para Window", "download installers and mods for Window")}`}</a></button>
-      <button><a href={`${txt("./../zipFiles/linuxEspaniol.zip", "./../zipFiles/linuxEngrish.zip")}`} download={`${txt("tronadoHardParaLinux.zip", "tronadoHardForLinux.zip")}`}>{`${txt("descargar Instaladores para linux", "download installers and mods for Linux")}`}</a></button>
+      <button><a href={`${txt(windowSpanish, windowEnglish)}`} download={`${txt("tronadoHardParaWindow.zip", "tronadoHardForWindow.zip")}`}>{`${txt("descargar Instaladores y mods para Window", "download installers and mods for Window")}`}</a></button>
+      <button><a href={`${txt(linuxSpanish, linuxEnglish)}`} download={`${txt("tronadoHardParaLinux.zip", "tronadoHardForLinux.zip")}`}>{`${txt("descargar Instaladores para linux", "download installers and mods for Linux")}`}</a></button>
       <h2>{`${txt("enlaces externos", "external links")}`}:</h2>
       <ul>
         <details>
