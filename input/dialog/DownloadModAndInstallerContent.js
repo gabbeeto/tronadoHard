@@ -160,14 +160,14 @@ export default function() {
               name="Sophisticated Backpacks"
               description={`${txt("mod de mochila", "backpack mod lol")}`}
               link="https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks"
-              version="3.19.1.962" />
+              version="3.19.5.988" />
 
 
             <ModContainer
               name="Sophisticated Core"
               description={`${txt("dependencia para 'Sophisticated Backpacks'", "dependency for the Backpack mod")}`}
               link="https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/"
-              version="0.5.108.504" />
+              version="0.5.113.524" />
 
 
             <ModContainer
@@ -177,17 +177,23 @@ export default function() {
               version="4.0.2" />
 
             <ModContainer
+              name="TrashSlot"
+              description={`${txt("te hace capaz de remover objectos inutiles de tu inventario", "you're able to remove useless items from your inventory")}`}
+              link="https://www.curseforge.com/minecraft/mc-mods/trashslot"
+              version="15.1.0" />
+
+            <ModContainer
               name="Balm"
-              description={`${txt("Dependencia para 'Waystones", "Waystone dependency")}`}
+              description={`${txt("Dependencia para 'Waystone' mod y 'trashlot' mod", "dependency to make waystone/trashlot mod work")}`}
               link="https://www.curseforge.com/minecraft/mc-mods/balm"
-              version="7.1.4" />
+              version="7.2.1" />
 
 
             <ModContainer
               name="Music Maker Mod"
               description={`${txt("Mod para hacer musica", "mod so we can make music lol")}`}
               link="https://www.curseforge.com/minecraft/mc-mods/music-maker-mod"
-              version="1.0.0" />
+              version="1.0.1" />
 
             <ModContainer
               name="Joy of Painting"
@@ -218,7 +224,35 @@ export default function() {
               name="Collective"
               description={`${txt("dependencia para el infinite trading mod", "dependency for the infinite-trading mod")}`}
               link="https://www.curseforge.com/minecraft/mc-mods/collective"
-              version="7.26" />
+              version="7.30" />
+
+
+            <ModContainer
+              name="SecurityCraft"
+              description={`${txt("agregar objetos relacionado a la seguridad como camaras", "add items related to secuity such as cameras")}`}
+              link="https://www.curseforge.com/minecraft/mc-mods/security-craft"
+              version="1.9.8" />
+
+
+            <ModContainer
+              name="Serene Seasons"
+              description={`${txt("agrega temporadas con sus respecivo clima en minecraf", "it add seasons with their own respective weather in minecraft")}`}
+              link="https://www.curseforge.com/minecraft/mc-mods/serene-seasons"
+              version="9.0.0.46" />
+
+            <ModContainer
+              name="Enchanting infuser"
+              description={`${txt("una mejor mesa de encantamiento que te deja elejir encantamientos", "a better enchanting table that lets you choose the enchantment istead of relying on randomness")}`}
+              link="https://www.curseforge.com/minecraft/mc-mods/enchanting-infuser-forge"
+              version="8.0.2" />
+
+            <ModContainer
+              name="Puzzles Lib"
+              description={`${txt("Dependencia para enchanting infuser", "dependency to make Enchanting infuser work")}`}
+              link="https://www.curseforge.com/minecraft/mc-mods/puzzles-lib"
+              version="8.1.11" />
+
+
 
           </dl>
         </section>
@@ -234,7 +268,7 @@ export default function() {
               name={`Optifine(${txt("esta en la carpeta de mod requeridos", "it's in the 'required mod' folder")})`}
               description={`${txt("Mod para modificar gráficos", "Mod so we can modify graphics even further")}`}
               link="https://optifine.net/downloads"
-              version={`HD U I6 pre6(${txt("para", "for")} Forge 47.1.43)`}
+              version={`HD U I6 (${txt("para", "for")} Forge 47.2.18)`}
               versionText={`Version({${txt("si logras hacerlo funcionar con todos los mods, esto no es importante.. Esta es mi recomendacion)", "if you're able to make it work with the remaining mods, this does not matter. The version is just a suggestion")}})`}
             />
 
