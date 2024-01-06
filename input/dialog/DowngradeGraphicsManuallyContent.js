@@ -40,7 +40,6 @@ function AnchorAndImgTag({hrefs, message, linuxClass = false}) {
 export default function() {
   return (<>
     <div>
-      <button id="quit">salir</button>
       <h2>
         {txt("esto es para personas que no les funciona el bajador de graficos o que simplemente quieren hacer lo mismo que hace el bajador de graficos sin tener que usar el bajador de graficos", "this is for people who want to downgrade the graphics but can't or for people who don't want to use the 'graphic downgrader'")}
       </h2>

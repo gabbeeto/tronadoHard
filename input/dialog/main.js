@@ -1,7 +1,7 @@
 import React from 'react';
 import "react-dom";
 import { createRoot } from "react-dom/client"
-import DownloadModAndInstallerContent from "./DownloadModAndInstallerContent.js"
+import DownloadModAndInstallerContent, { txt } from "./DownloadModAndInstallerContent.js"
 import LinksToMakeWindowLightweightContent from "./LinksToMakeWindowLightweightContent"
 import DowngradeGraphicsManuallyContent from "./DowngradeGraphicsManuallyContent.js";
 import HowToInstallModButtonContent from "./HowToInstallModButtonContent.js";
@@ -24,9 +24,11 @@ const contentFromDifferentFiles = {
 };
 
 export function renderDialog(dialogProperty) {
-  let dialog = createRoot(document.querySelector("dialog"));
+  let dialogElement = document.querySelector("dialog");
+  let dialog = createRoot(dialogElement);
   dialog.render(
     (<>
+      <button onClick={() => {dialogElement.close()}}>{txt("salir", "leave")}</button>
       {contentFromDifferentFiles[dialogProperty]}
     </>)
   );
