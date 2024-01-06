@@ -247,6 +247,11 @@ export default function() {
               version="8.1.11" />
 
 
+            <ModContainer
+              name="Ender Dragon Fight Remastered"
+              description={`${txt("hace la batalla final mejor", "makes the final battle better")}`}
+              link="https://modrinth.com/datapack/edf-remastered"
+              version="4.3" />
 
           </dl>
         </section>
