@@ -1,9 +1,5 @@
 import React from "react"
 import "react-dom"
-import linuxEnglish from "./../zipFiles/linuxEngrish.zip"
-import linuxSpanish from "./../zipFiles/linuxEspaniol.zip"
-import windowEnglish from "./../zipFiles/windowEngrish.zip"
-import windowSpanish from "./../zipFiles/windowEspaniol.zip"
 
 
 export function txt(spanishText, englishText) {
@@ -93,17 +89,15 @@ export default function() {
 
   return (<>
     <div>
-      <button><a href={`${txt(windowSpanish, windowEnglish)}`} download={`${txt("tronadoHardParaWindow.zip", "tronadoHardForWindow.zip")}`}>{`${txt("descargar Instaladores y mods para Window", "download installers and mods for Window")}`}</a></button>
-      <button><a href={`${txt(linuxSpanish, linuxEnglish)}`} download={`${txt("tronadoHardParaLinux.zip", "tronadoHardForLinux.zip")}`}>{`${txt("descargar Instaladores para linux", "download installers and mods for Linux")}`}</a></button>
-      <h2>{`${txt("enlaces externos", "external links")}`}:</h2>
+      <h2>{`${txt("enlaces externos de mods con instaladores", "external links for the installer and the mods")}`}:</h2>
       <ul>
         <details>
           <summary>
             Mediafire
           </summary>
           <section>
-            <button><a target="_blank" href={`${txt("https://www.mediafire.com/file/9toyzx4dc1l9t0q/window_espaniol.zip/file", "https://www.mediafire.com/file/j2j2n3nkyxv5ztd/window_engrish.zip/file")}`}>windows</a></button>
-            <button><a target="_blank" href={`${txt("https://www.mediafire.com/file/3s9izuyf2hj6kw7/linux_espaniol.zip/file", "https://www.mediafire.com/file/ea7zmqpyo05j6vq/linux_engrish.zip/file")}`}>linux</a></button>
+            <button><a target="_blank" href={`${txt("https://www.mediafire.com/file/icd3evk3wpcbge6/windowEspaniol.zip/file", "https://www.mediafire.com/file/p1e1kioxm50tbzv/windowEngrish.zip/file")}`}>windows</a></button>
+            <button><a target="_blank" href={`${txt("https://www.mediafire.com/file/6s2amg25jrz8u28/linuxEspaniol.zip/file", "https://www.mediafire.com/file/4477jafsvijaey1/linuxEngrish.zip/file")}`}>linux</a></button>
           </section>
         </details>
         <details>
@@ -111,8 +105,8 @@ export default function() {
             Google Drive
           </summary>
           <section>
-            <button><a target="_blank" href={`${txt("https://drive.google.com/file/d/15GkhS42Z_7zoxbH7_rLdMhKei4mRfBey/view?usp=sharing", "https://drive.google.com/file/d/1b7lK81op3wGp-SSUiOuP2nl9R_q_WmfL/view?usp=sharing")}`}>linux</a></button>
-            <button><a target="_blank" href={`${txt("https://drive.google.com/file/d/1p-JM85OROzeZDDWjW9ZTmc0a0gfkVPZe/view?usp=sharing", "https://drive.google.com/file/d/1D3YrS76rT23zFDfSNxsPiJHDmK3cYWQZ/view?usp=sharing")}`}>windows</a></button>
+            <button><a target="_blank" href={`${txt("https://drive.google.com/file/d/1xCFheAxWtFVN3e_VGq-nd4Eq9UL3_vgZ/view?usp=sharing", "https://drive.google.com/file/d/17dM-xvXbB1GPL0aLjbhSnEDuihApI9Qe/view?usp=sharing")}`}>linux</a></button>
+            <button><a target="_blank" href={`${txt("https://drive.google.com/file/d/1yHRVvsG6yzdHIITpxNu5rwZ3ckpS_VBX/view?usp=sharing", "https://drive.google.com/file/d/1V1DYPfgn7WWGqYudbfOTJEUYKoJR0od0/view?usp=sharingttps://drive.google.com/file/d/1D3YrS76rT23zFDfSNxsPiJHDmK3cYWQZ/view?usp=sharing")}`}>windows</a></button>
           </section>
         </details>
       </ul>

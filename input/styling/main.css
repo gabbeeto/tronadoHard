@@ -34,6 +34,7 @@ body{
 main > h2 > span{
 color: var(--darkBlue);
 }
+
 header{
 background-color:var(--blue);
 border-bottom:2px solid var(--darkPink);
@@ -41,6 +42,7 @@ display: flex;
 justify-content:center;
 align-items:center;
 text-align:center;
+gap: 15px;
 }
 
 button{
@@ -51,10 +53,22 @@ text-align:center;
 border-radius:10px;
 }
 
+
+header button{
+width:25%;
+height:15%;
+padding: 0px;
+}
+
+h1{
+font-size:min(4.2vw,2.4rem);
+}
+
 h2{
-font-size:min(5vw,2.2rem);
+font-size:min(4vw,2.2rem);
 text-align:center;
 }
+
 main > article > h2{
 font-size:min(3.5vw,1.8rem);
 }

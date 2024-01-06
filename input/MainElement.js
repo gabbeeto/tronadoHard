@@ -82,14 +82,14 @@ export default function Main({ languageString }) {
         <h2>{introductionH2FromArticle[languageString]}</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/MeCq2c8e8F4?si=LLTJrGDq1sH8U_jW" title="YouTube video player For TronadoHard" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <button onClick={() => openPopUp("downloadModAndInstaller")} >{downloadModAndInstaller[languageString]}</button>
-        <button onClick={() => openPopUp("linksToMakeWindowLightweight")} >{linksToMakeWindowLightweight[languageString]}</button>
+        {/* <button onClick={() => openPopUp("linksToMakeWindowLightweight")} >{linksToMakeWindowLightweight[languageString]}</button> */}
         <button onClick={() => openPopUp("downgradeGraphicsManually")} >{downgradeGraphicsManually[languageString]}</button>
       </article>
       <article>
-        <h3>{h3TittleForPeopleWhoLikeReading[languageString]}</h3>
-        <button onClick={() => openPopUp("howToInstallModButton")} >{howToInstallmodButton[languageString]}</button>
-        <button onClick={() => openPopUp("howToDowngradeGraphics")} >{howToDowngradeGraphics[languageString]}
-        </button>
+        {/* <h3>{h3TittleForPeopleWhoLikeReading[languageString]}</h3> */}
+        {/* <button onClick={() => openPopUp("howToInstallModButton")} >{howToInstallmodButton[languageString]}</button> */}
+        {/* <button onClick={() => openPopUp("howToDowngradeGraphics")} >{howToDowngradeGraphics[languageString]} */}
+        {/* </button> */}
       </article>
     </main>
   </>)
