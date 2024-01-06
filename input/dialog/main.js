@@ -27,9 +27,10 @@ export function renderDialog(dialogProperty) {
   let dialogElement = document.querySelector("dialog");
   let dialog = createRoot(dialogElement);
   dialog.render(
-    (<>
+    (<div id='dContainer'>
       <button onClick={() => {dialogElement.close()}}>{txt("salir", "leave")}</button>
       {contentFromDifferentFiles[dialogProperty]}
-    </>)
+    </div>
+    )
   );
 }

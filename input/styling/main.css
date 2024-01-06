@@ -130,7 +130,20 @@ box-shadow: 10px 10px 10px var(--darkPink);
 z-index: 9999;
 }
 
-dialog > div{
+#dContainer{
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+}
+
+dialog #dContainer > button{
+text-align: center;
+width:20%;
+height:20%;
+}
+
+dialog #dContainer > div{
 display: grid;
 align-items:center;
 justify-items:center;
@@ -140,7 +153,7 @@ width:72vw;
 height:94vh;
 }
 
-dialog div img{
+dialog #dContainer div img{
 border-radius:5px;
 width: 93%;
 height: min(32%,280px);
@@ -204,11 +217,11 @@ font-size: min(1.1vw,1.5rem);
 font-size: clamp(0.8rem,1.1vw,1.5rem);
 }
 
-dialog p{
+dialog #dContainer p{
 font-size: clamp(0.7rem,1.0vw,1.2rem);
 }
 
-dialog h2{
+dialog #dContainer h2{
 /* font-size: min(2.3vw,2.2rem); */
 font-size: clamp(1rem,2.3vw,2.2rem);
 }
@@ -217,15 +230,16 @@ button{
 cursor: pointer;
 }
 
-dialog p > span{
+dialog #dContainer p > span{
 color: var(--darkGreen);
 }
 
 
-dialog h2 > span{
+dialog #dContainer h2 > span{
 color: var(--blue);
 }
 
 .titleForInformation{
 color: var(--blue);
 }
+
