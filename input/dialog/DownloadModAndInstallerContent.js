@@ -96,7 +96,7 @@ export default function() {
             Mediafire
           </summary>
           <section>
-            <button><a target="_blank" href={`${txt("https://www.mediafire.com/file/icd3evk3wpcbge6/windowEspaniol.zip/file", "https://www.mediafire.com/file/p1e1kioxm50tbzv/windowEngrish.zip/file")}`}>windows</a></button>
+            <button><a target="_blank" href={`${txt("https://www.mediafire.com/file/se40vjfd7895z5z/window_espaniol.zip/file", "https://www.mediafire.com/file/88xq1yn1defj59p/window_engrish.zip/file")}`}>windows</a></button>
             <button><a target="_blank" href={`${txt("https://www.mediafire.com/file/6s2amg25jrz8u28/linuxEspaniol.zip/file", "https://www.mediafire.com/file/4477jafsvijaey1/linuxEngrish.zip/file")}`}>linux</a></button>
           </section>
         </details>
@@ -105,8 +105,8 @@ export default function() {
             Google Drive
           </summary>
           <section>
-            <button><a target="_blank" href={`${txt("https://drive.google.com/file/d/1xCFheAxWtFVN3e_VGq-nd4Eq9UL3_vgZ/view?usp=sharing", "https://drive.google.com/file/d/17dM-xvXbB1GPL0aLjbhSnEDuihApI9Qe/view?usp=sharing")}`}>linux</a></button>
-            <button><a target="_blank" href={`${txt("https://drive.google.com/file/d/1yHRVvsG6yzdHIITpxNu5rwZ3ckpS_VBX/view?usp=sharing", "https://drive.google.com/file/d/1V1DYPfgn7WWGqYudbfOTJEUYKoJR0od0/view?usp=sharingttps://drive.google.com/file/d/1D3YrS76rT23zFDfSNxsPiJHDmK3cYWQZ/view?usp=sharing")}`}>windows</a></button>
+            <button><a target="_blank" href={`${txt("https://drive.google.com/file/d/1XRlWSnEXBXUGFD55uvjfTuTkVldLQl3f/view?usp=sharing", "https://drive.google.com/file/d/1y3D2u5iq1SgntlteWYyuQW5uD1kmgjr5/view?usp=sharing")}`}>linux</a></button>
+            <button><a target="_blank" href={`${txt("https://drive.google.com/file/d/1TnvDnvT9Bq561eyZwUdUicmZMWDbJGY5/view?usp=sharing", "https://drive.google.com/file/d/1F9-AUKIT7LZse5YwtGLT2z3IPPYUcdUN/view?usp=sharing")}`}>windows</a></button>
           </section>
         </details>
       </ul>
